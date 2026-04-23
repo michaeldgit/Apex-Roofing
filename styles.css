@@ -2469,7 +2469,7 @@ body.af .site-header{display:none}
 .af *{box-sizing:border-box}
 
 /* Header */
-.af-head{background:transparent;position:absolute;top:0;left:0;right:0;z-index:40}
+.af-head{background:linear-gradient(90deg,#b8bbff 0%,#c8b5e8 50%,#ffb8e8 100%);position:sticky;top:0;z-index:40}
 .af-head-in{max-width:1440px;margin:0 auto;padding:26px 32px;display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center}
 .af-logo{display:inline-flex;align-items:baseline;font-family:'Archivo Black',sans-serif;font-size:2rem;line-height:1;color:var(--ink);letter-spacing:-.02em}
 .af-logo .af-dot{font-style:normal;color:var(--brand)}
@@ -2496,8 +2496,7 @@ body.af .site-header{display:none}
 }
 
 /* ==== Hero ==== */
-.af-hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#3a3fd8 0%,#6b4ad6 45%,#c04fc7 100%)}
-.af-hero::before{content:"";position:absolute;top:0;left:0;right:0;height:180px;background:linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,0) 100%);z-index:3;pointer-events:none}
+.af-hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#1e3bff 0%,#5a3fd8 45%,#c84fc7 100%)}
 .af-hero-in{position:relative;z-index:2;max-width:1440px;margin:0 auto;padding:80px 32px;width:100%;text-align:center;color:#fff}
 .af-hero-eyebrow{font-family:'DM Sans',sans-serif;font-weight:700;font-size:.82rem;letter-spacing:.3em;text-transform:uppercase;color:#fff;margin-bottom:40px}
 .af-hero-h{font-family:'Archivo Black',sans-serif;font-size:clamp(3.5rem,10vw,10rem);line-height:.88;letter-spacing:-.04em;color:#fff;text-transform:uppercase;margin:0 0 50px}
