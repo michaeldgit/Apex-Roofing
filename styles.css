@@ -2525,12 +2525,13 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 .ap-hero-in{position:relative;z-index:2;max-width:100%;width:100%;margin:0 auto;text-align:center;color:#fff}
 .ap-hero-eyebrow{color:#fff;margin-bottom:30px;display:inline-flex;align-items:center;gap:10px}
 .ap-hero-eyebrow::before,.ap-hero-eyebrow::after{content:"";width:40px;height:1px;background:rgba(255,255,255,.5);display:inline-block}
-.ap .ap-hero-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:108px;line-height:.85;letter-spacing:-.02em;text-transform:uppercase;color:var(--ink);margin:0 auto 50px;max-width:1120px;overflow:visible}
-.ap .ap-hero-h span{display:block;text-align:justify;text-align-last:justify}
-@media (max-width:1200px){.ap .ap-hero-h{font-size:92px;max-width:960px}}
-@media (max-width:991px){.ap .ap-hero-h{font-size:72px;max-width:760px}}
-@media (max-width:767px){.ap .ap-hero-h{font-size:56px;max-width:580px}}
-@media (max-width:479px){.ap .ap-hero-h{font-size:40px;max-width:100%}.ap .ap-hero-h span{text-align:center;text-align-last:center}}
+.ap .ap-hero-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:96px;line-height:.85;letter-spacing:-.02em;text-transform:uppercase;color:var(--ink);margin:0 auto 50px;max-width:1260px;overflow:visible}
+.ap .ap-hero-h span{display:block;text-align:justify;text-align-last:justify;white-space:nowrap}
+@media (max-width:1300px){.ap .ap-hero-h{font-size:82px;max-width:1080px}}
+@media (max-width:1100px){.ap .ap-hero-h{font-size:68px;max-width:900px}}
+@media (max-width:900px){.ap .ap-hero-h{font-size:54px;max-width:720px}}
+@media (max-width:720px){.ap .ap-hero-h{font-size:40px;max-width:540px}}
+@media (max-width:480px){.ap .ap-hero-h{font-size:30px;max-width:100%}.ap .ap-hero-h span{white-space:normal;text-align:center;text-align-last:center}}
 .ap-hero-h em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--yellow);letter-spacing:-.02em;text-transform:lowercase}
 .ap-hero-cta-wrap{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center}
 .ap-hero-phone{color:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.02em;padding:18px 4px}
