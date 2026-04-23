@@ -2734,7 +2734,7 @@ body.rm .rm-btn-light:hover{background:var(--rm-beige);color:var(--rm-brown)}
 .rm-btn-lg{padding:18px 34px;font-size:1.05rem;border-radius:16px}
 .rm-btn-block{width:100%}
 
-.rm-header{background:rgba(245,238,224,.55);padding:20px 0;position:fixed;top:0;left:0;right:0;z-index:40;border-bottom:1px solid rgba(58,36,16,.08);backdrop-filter:blur(18px) saturate(180%);-webkit-backdrop-filter:blur(18px) saturate(180%)}
+.rm-header{background:rgba(245,238,224,.8);padding:20px 0;position:fixed;top:0;left:0;right:0;z-index:40;border-bottom:1px solid rgba(58,36,16,.08);backdrop-filter:blur(18px) saturate(180%);-webkit-backdrop-filter:blur(18px) saturate(180%)}
 .rm-header-in{display:flex;align-items:center;justify-content:space-between;gap:24px}
 .rm-brand-circle{width:82px;height:82px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .rm-brand-circle svg{width:62px;height:62px}
