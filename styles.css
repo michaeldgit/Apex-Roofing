@@ -2724,12 +2724,12 @@ body.rm p{margin:0}
 .rm-wrap{max-width:1200px;margin:0 auto;padding:0 32px}
 
 .rm-btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:14px;font-weight:600;font-size:1rem;cursor:pointer;transition:all .18s;border:2px solid transparent;font-family:inherit;white-space:nowrap;text-align:center}
-.rm-btn-primary{background:var(--rm-brown);color:#fff;border-color:var(--rm-brown)}
-.rm-btn-primary:hover{background:var(--rm-brown-dk);border-color:var(--rm-brown-dk)}
-.rm-btn-primary-ghost{background:transparent;color:var(--rm-brown);border-color:var(--rm-brown)}
-.rm-btn-primary-ghost:hover{background:var(--rm-brown);color:#fff}
-.rm-btn-light{background:#fff;color:var(--rm-brown);border-color:#fff}
-.rm-btn-light:hover{background:var(--rm-beige)}
+body.rm .rm-btn-primary{background:var(--rm-brown);color:#fff;border-color:var(--rm-brown)}
+body.rm .rm-btn-primary:hover{background:var(--rm-brown-dk);border-color:var(--rm-brown-dk);color:#fff}
+body.rm .rm-btn-primary-ghost{background:transparent;color:var(--rm-brown);border-color:var(--rm-brown)}
+body.rm .rm-btn-primary-ghost:hover{background:var(--rm-brown);color:#fff}
+body.rm .rm-btn-light{background:#fff;color:var(--rm-brown);border-color:#fff}
+body.rm .rm-btn-light:hover{background:var(--rm-beige);color:var(--rm-brown)}
 .rm-btn-lg{padding:18px 34px;font-size:1.05rem;border-radius:16px}
 .rm-btn-block{width:100%}
 
@@ -2839,8 +2839,8 @@ body.rm .rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2r
 .rm-footer-col .rm-btn{display:inline-flex;margin-top:4px;text-decoration:none;color:#fff}
 .rm-footer-bar{background:var(--rm-brown);color:#fff;padding:16px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.9rem}
 .rm-footer-bar-links{display:flex;gap:20px}
-.rm-footer-bar a{color:#fff;text-decoration:none}
-.rm-footer-bar a:hover{color:var(--rm-yellow)}
+body.rm .rm-footer-bar a{color:#fff;text-decoration:none}
+body.rm .rm-footer-bar a:hover{color:var(--rm-yellow)}
 
 .rm-mobile-call{display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:50;background:var(--rm-brown);color:#fff;font-weight:700;text-align:center;padding:16px;border-radius:14px;box-shadow:0 14px 30px rgba(20,20,20,.3)}
 
