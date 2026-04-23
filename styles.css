@@ -2749,7 +2749,7 @@ body.rm p{margin:0}
 .rm-hero-bg::after{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'><path d='M0 50 L30 25 L60 50 L90 25 L120 50 L150 25 L180 50 L200 35' stroke='%23F5C52D' stroke-width='2.5' fill='none' stroke-linejoin='round' opacity='0.10'/></svg>");background-size:320px 96px;background-repeat:repeat;opacity:.9}
 .rm-hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.55) 100%);z-index:1}
 .rm-hero-in{position:relative;z-index:2;text-align:center;padding:40px 0}
-.rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:700;letter-spacing:-.01em;line-height:1.1;margin-bottom:40px;text-shadow:0 4px 20px rgba(0,0,0,.35)}
+body.rm .rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:700;letter-spacing:-.01em;line-height:1.1;margin-bottom:40px;text-shadow:0 4px 20px rgba(0,0,0,.35)}
 .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25)}
 
 .rm-trust-logos{background:#fff;padding:60px 0}
@@ -2798,7 +2798,7 @@ body.rm p{margin:0}
 .rm-pcard p{color:var(--rm-text);font-size:1rem;line-height:1.6;max-width:340px}
 
 .rm-reviews{background:var(--rm-brown);padding:100px 0}
-.rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2rem);font-weight:700;margin-bottom:60px}
+body.rm .rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2rem);font-weight:700;margin-bottom:60px}
 .rm-reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-bottom:48px}
 .rm-review{background:#fff;border-radius:16px;margin:0;padding:40px 32px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:18px}
 .rm-stars{color:var(--rm-yellow);font-size:1.4rem;letter-spacing:4px}
