@@ -2471,24 +2471,23 @@ body.af .site-header{display:none}
 /* Header */
 .af-head{background:transparent;position:absolute;top:0;left:0;right:0;z-index:40}
 .af-head-in{max-width:1440px;margin:0 auto;padding:26px 32px;display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center}
-.af-logo{display:inline-flex;align-items:baseline;font-family:'Archivo Black',sans-serif;font-size:2rem;line-height:1;color:#fff;letter-spacing:-.02em}
+.af-logo{display:inline-flex;align-items:baseline;font-family:'Archivo Black',sans-serif;font-size:2rem;line-height:1;color:var(--ink);letter-spacing:-.02em}
 .af-logo .af-dot{font-style:normal;color:var(--brand)}
-.af-nav{display:flex;gap:36px;justify-content:center;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase}
-.af-nav a{color:#fff}
+.af-nav{display:flex;gap:36px;justify-content:center;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
 .af-nav a:hover{color:var(--brand)}
 .af-head-r{display:flex;gap:20px;align-items:center}
 .af-pill{display:inline-flex;align-items:center;background:#000;color:#fff;padding:14px 28px;border-radius:999px;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;transition:background .2s ease}
 .af-pill:hover{background:var(--brand)}
-.af-phone{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.05rem;color:#fff;letter-spacing:-.01em}
+.af-phone{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.05rem;color:var(--ink);letter-spacing:-.01em}
 .af-phone:hover{color:var(--brand)}
 .af-head .burger{display:none}
 
 /* ==== Gradient mesh blob utility ==== */
 .af-hero-grad, .af-orb{position:absolute;inset:0;overflow:hidden;pointer-events:none}
 .g-blob{position:absolute;border-radius:50%;filter:blur(80px);opacity:.85;mix-blend-mode:normal;will-change:transform}
-.g-b1{width:70%;height:90%;left:-15%;top:-10%;background:radial-gradient(circle, #ff9a5a 0%, transparent 65%);animation:gfloat 18s ease-in-out infinite}
-.g-b2{width:55%;height:80%;right:-10%;top:10%;background:radial-gradient(circle, #d63fa2 0%, transparent 65%);animation:gfloat 22s ease-in-out infinite reverse}
-.g-b3{width:60%;height:70%;left:20%;bottom:-20%;background:radial-gradient(circle, #5a41ff 0%, transparent 65%);animation:gfloat 26s ease-in-out infinite}
+.g-b1{width:75%;height:95%;left:-20%;top:5%;background:radial-gradient(circle, #1e3bff 0%, transparent 65%);animation:gfloat 18s ease-in-out infinite}
+.g-b2{width:60%;height:85%;right:-15%;top:0;background:radial-gradient(circle, #ff4fc7 0%, transparent 65%);animation:gfloat 22s ease-in-out infinite reverse}
+.g-b3{width:65%;height:75%;left:15%;bottom:-25%;background:radial-gradient(circle, #7a3fff 0%, transparent 65%);animation:gfloat 26s ease-in-out infinite}
 .g-grain{position:absolute;inset:0;pointer-events:none;opacity:.18;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.9'/></svg>")}
 @keyframes gfloat{
   0%,100%{transform:translate(0,0) scale(1)}
@@ -2497,7 +2496,8 @@ body.af .site-header{display:none}
 }
 
 /* ==== Hero ==== */
-.af-hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;background:#3a2d9e}
+.af-hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(135deg,#3a3fd8 0%,#6b4ad6 45%,#c04fc7 100%)}
+.af-hero::before{content:"";position:absolute;top:0;left:0;right:0;height:180px;background:linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,0) 100%);z-index:3;pointer-events:none}
 .af-hero-in{position:relative;z-index:2;max-width:1440px;margin:0 auto;padding:80px 32px;width:100%;text-align:center;color:#fff}
 .af-hero-eyebrow{font-family:'DM Sans',sans-serif;font-weight:700;font-size:.82rem;letter-spacing:.3em;text-transform:uppercase;color:#fff;margin-bottom:40px}
 .af-hero-h{font-family:'Archivo Black',sans-serif;font-size:clamp(3.5rem,10vw,10rem);line-height:.88;letter-spacing:-.04em;color:#fff;text-transform:uppercase;margin:0 0 50px}
