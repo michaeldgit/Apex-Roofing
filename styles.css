@@ -2489,8 +2489,8 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 /* Pill buttons */
 .ap-pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:#fff;padding:20px 36px;border-radius:999px;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.88rem;letter-spacing:.14em;text-transform:uppercase;border:0;cursor:pointer;transition:transform .2s,background .2s;white-space:nowrap}
 .ap-pill:hover{background:var(--amber);color:var(--ink);transform:translateY(-2px)}
-.ap-pill-white{background:#fff;color:var(--ink)}
-.ap-pill-white:hover{background:var(--amber);color:var(--ink)}
+.ap .ap-pill-white{background:#fff;color:var(--ink)}
+.ap .ap-pill-white:hover{background:var(--amber);color:var(--ink)}
 .ap-pill-amber{background:var(--amber);color:var(--ink)}
 .ap-pill-amber:hover{background:var(--yellow);color:var(--ink)}
 .ap-pill-sm{padding:12px 22px;font-size:.76rem;letter-spacing:.14em}
@@ -2523,8 +2523,7 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
   url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.7'/></svg>");
   opacity:.22;mix-blend-mode:overlay}
 .ap-hero-in{position:relative;z-index:2;max-width:100%;width:100%;margin:0 auto;text-align:center;color:#fff}
-.ap-hero-eyebrow{color:#fff;margin-bottom:30px;display:inline-flex;align-items:center;gap:10px}
-.ap-hero-eyebrow::before,.ap-hero-eyebrow::after{content:"";width:40px;height:1px;background:rgba(255,255,255,.5);display:inline-block}
+.ap-hero-eyebrow{color:#fff;margin-bottom:30px;display:inline-block}
 .ap .ap-hero-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:96px;line-height:.85;letter-spacing:-.02em;text-transform:uppercase;color:var(--ink);margin:0 auto 50px;max-width:1260px;overflow:visible}
 .ap .ap-hero-h span{display:block;text-align:justify;text-align-last:justify;white-space:nowrap}
 @media (max-width:1300px){.ap .ap-hero-h{font-size:82px;max-width:1080px}}
