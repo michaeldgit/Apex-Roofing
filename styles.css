@@ -80,15 +80,16 @@ p{margin:0 0 1em}
 /* ===== Header ===== */
 .site-header{
   position:sticky;top:0;z-index:50;
-  background:rgba(248,245,239,.92);
-  backdrop-filter:saturate(150%) blur(10px);
-  border-bottom:1px solid transparent;
-  transition:box-shadow .2s ease, border-color .2s ease;
+  background:rgba(248,245,239,.55);
+  backdrop-filter:saturate(180%) blur(18px);
+  -webkit-backdrop-filter:saturate(180%) blur(18px);
+  border-bottom:1px solid rgba(0,0,0,.05);
+  transition:box-shadow .2s ease, border-color .2s ease, background .2s ease;
 }
 .site-header.scrolled{
   box-shadow:var(--shadow-sm);
   border-bottom-color:var(--line);
-  background:rgba(248,245,239,.96);
+  background:rgba(248,245,239,.65);
 }
 .header-inner{
   display:flex;align-items:center;justify-content:space-between;
