@@ -2751,8 +2751,8 @@ body.rm .rm-btn-light:hover{background:var(--rm-beige);color:var(--rm-brown)}
 .rm-hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0%,rgba(0,0,0,.55) 100%);z-index:1}
 .rm-hero-in{position:relative;z-index:2;text-align:center;padding:80px 0 40px}
 body.rm .rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:700;letter-spacing:-.01em;line-height:1.1;margin-bottom:40px;text-shadow:0 4px 20px rgba(0,0,0,.35)}
-.rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border-color:#fff}
-.rm-hero .rm-btn:hover{border-color:#fff}
+body.rm .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border:3px solid #fff}
+body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
 .rm-trust-logos{background:#fff;padding:60px 0}
 .rm-trust-logos-in{display:flex;justify-content:center;align-items:center;gap:80px;flex-wrap:wrap}
