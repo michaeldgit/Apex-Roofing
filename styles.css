@@ -2544,13 +2544,11 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 
 /* Section 2 — Mission headline (white bg, massive black text) */
 .ap-mission{padding:140px 0;background:var(--paper)}
-.ap-mission-in{max-width:1400px;margin:0 auto;padding:0 40px}
-.ap-mission-top{display:flex;justify-content:space-between;align-items:flex-start;gap:40px;margin-bottom:56px;flex-wrap:wrap}
-.ap-mission-eyebrow{font-family:'DM Sans',sans-serif;font-weight:600;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--amber-dk);display:flex;align-items:center;gap:10px}
-.ap-mission-eyebrow::before{content:"";width:40px;height:1px;background:var(--amber-dk);display:inline-block}
-.ap-mission-aside{max-width:320px;font-size:1rem;color:var(--muted);line-height:1.6}
-.ap-mission-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2.4rem,8.5vw,7.5rem);line-height:.9;letter-spacing:-.04em;text-transform:uppercase;color:var(--ink)}
-.ap-mission-h em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--amber-dk);text-transform:lowercase;letter-spacing:-.02em}
+.ap-mission-in{max-width:1400px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1.45fr 1fr;gap:80px;align-items:start}
+.ap-mission-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2rem,5.8vw,5.4rem);line-height:.95;letter-spacing:-.02em;text-transform:uppercase;color:var(--ink);margin:0}
+.ap-mission-accent{background:linear-gradient(90deg,#F5C572 0%,var(--amber) 45%,var(--amber-dk) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.ap-mission-body{display:flex;flex-direction:column;gap:1.25em;font-size:1.0625rem;line-height:1.65;color:var(--ink);padding-top:14px}
+.ap-mission-body p{margin:0}
 
 /* Marquee strip of service words */
 .ap-marquee{background:var(--yellow);color:var(--ink);padding:36px 0;overflow:hidden;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
@@ -2675,7 +2673,8 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 /* Responsive */
 @media (max-width:1024px){
   .ap-nav{display:none}
-  .ap-mission-top,.ap-services-head,.ap-reviews-head{grid-template-columns:1fr}
+  .ap-mission-in{grid-template-columns:1fr;gap:40px}
+  .ap-services-head,.ap-reviews-head{grid-template-columns:1fr}
   .ap-reviews-score{text-align:left}
   .ap-stats-grid{grid-template-columns:repeat(2,1fr)}
   .ap-process-grid{grid-template-columns:repeat(2,1fr)}
