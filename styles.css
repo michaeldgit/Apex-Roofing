@@ -2739,8 +2739,8 @@ body.rm .rm-btn-light:hover{background:var(--rm-beige);color:var(--rm-brown)}
 .rm-brand{display:flex;align-items:center;gap:10px;flex-shrink:0;text-decoration:none}
 .rm-brand-ico{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
 .rm-brand-ico svg{width:44px;height:auto;display:block}
-.rm-brand-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.3rem;color:var(--rm-brown);letter-spacing:-.01em;line-height:1;white-space:nowrap}
-.rm-brand-name em{font-style:normal;color:#B8902A;margin-left:3px;font-weight:600}
+.rm-brand-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.5rem;color:var(--rm-brown);letter-spacing:-.01em;line-height:1;white-space:nowrap}
+.rm-brand-name em{font-style:normal;color:#F5C52D;margin-left:2px;font-weight:700}
 .rm-nav{display:flex;gap:24px;flex:1;justify-content:center;flex-wrap:nowrap;white-space:nowrap}
 .rm-nav a{font-weight:500;color:var(--rm-brown);font-size:.95rem;padding:4px 0;border-bottom:2px solid transparent;transition:border-color .15s;white-space:nowrap}
 .rm-nav a:hover{border-bottom-color:var(--rm-brown)}
