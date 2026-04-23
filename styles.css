@@ -2469,16 +2469,17 @@ body.af .site-header{display:none}
 .af *{box-sizing:border-box}
 
 /* Header */
-.af-head{background:#fff;border-bottom:1px solid #e8e8e8;position:sticky;top:0;z-index:40}
+.af-head{background:transparent;position:absolute;top:0;left:0;right:0;z-index:40}
 .af-head-in{max-width:1440px;margin:0 auto;padding:26px 32px;display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center}
-.af-logo{display:inline-flex;align-items:baseline;font-family:'Archivo Black',sans-serif;font-size:2rem;line-height:1;color:var(--ink);letter-spacing:-.02em}
+.af-logo{display:inline-flex;align-items:baseline;font-family:'Archivo Black',sans-serif;font-size:2rem;line-height:1;color:#fff;letter-spacing:-.02em}
 .af-logo .af-dot{font-style:normal;color:var(--brand)}
 .af-nav{display:flex;gap:36px;justify-content:center;font-family:'DM Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase}
+.af-nav a{color:#fff}
 .af-nav a:hover{color:var(--brand)}
 .af-head-r{display:flex;gap:20px;align-items:center}
-.af-pill{display:inline-flex;align-items:center;background:var(--ink);color:#fff;padding:14px 28px;border-radius:999px;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;transition:background .2s ease}
+.af-pill{display:inline-flex;align-items:center;background:#000;color:#fff;padding:14px 28px;border-radius:999px;font-family:'DM Sans',sans-serif;font-weight:700;font-size:.88rem;letter-spacing:.1em;text-transform:uppercase;transition:background .2s ease}
 .af-pill:hover{background:var(--brand)}
-.af-phone{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.05rem;color:var(--ink);letter-spacing:-.01em}
+.af-phone{font-family:'DM Sans',sans-serif;font-weight:700;font-size:1.05rem;color:#fff;letter-spacing:-.01em}
 .af-phone:hover{color:var(--brand)}
 .af-head .burger{display:none}
 
