@@ -2536,12 +2536,6 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 .ap-hero-phone{color:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-weight:600;font-size:.92rem;letter-spacing:.02em;padding:18px 4px}
 .ap-hero-phone b{color:#fff;font-weight:700}
 
-/* Ticker under hero */
-.ap-ticker{background:var(--ink);color:var(--yellow);padding:18px 0;overflow:hidden;border-top:1px solid var(--brown-2);border-bottom:1px solid var(--brown-2)}
-.ap-ticker-track{display:flex;gap:48px;white-space:nowrap;animation:aptk 38s linear infinite;width:max-content;font-family:'Archivo Black','Arial Black',sans-serif;font-size:1.4rem;font-weight:900;letter-spacing:-.01em;text-transform:uppercase}
-.ap-ticker-track span::before{content:"◆";color:var(--amber);margin-right:12px}
-@keyframes aptk{to{transform:translateX(-50%)}}
-
 /* Section 2 — Mission headline (white bg, massive black text) */
 .ap-mission{padding:140px 0;background:var(--paper)}
 .ap-mission-in{max-width:1400px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:1.45fr 1fr;gap:80px;align-items:start}
@@ -2551,19 +2545,16 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 .ap-mission-body p{margin:0}
 
 /* Marquee strip of service words */
-.ap-marquee{background:var(--yellow);color:var(--ink);padding:36px 0;overflow:hidden;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
-.ap-marquee-track{display:flex;gap:60px;white-space:nowrap;animation:apmq 45s linear infinite;width:max-content;font-family:'Archivo Black','Arial Black',sans-serif;font-size:clamp(2.2rem,5vw,4.2rem);font-weight:900;letter-spacing:-.03em;text-transform:uppercase;line-height:1}
-.ap-marquee-track span::before{content:"✶";color:var(--amber-dk);margin-right:30px;font-weight:400}
-@keyframes apmq{to{transform:translateX(-50%)}}
-
 /* Services section — big numbered list */
 .ap-services{padding:140px 0;background:var(--ink);color:#fff}
 .ap-services-in{max-width:1400px;margin:0 auto;padding:0 40px}
-.ap-services-head{display:grid;grid-template-columns:1fr 2fr;gap:60px;margin-bottom:70px;align-items:flex-end}
-.ap-services-head h2{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2.2rem,5.5vw,5rem);line-height:.9;letter-spacing:-.04em;text-transform:uppercase;color:#fff}
-.ap-services-head h2 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--yellow);text-transform:lowercase}
-.ap-services-head p{color:#CBB48A;font-size:1.05rem;max-width:480px;line-height:1.6;margin:0}
-.ap-services-head .ap-mono{color:var(--amber);margin-bottom:20px;display:block}
+.ap-services-head{display:grid;grid-template-columns:1.15fr 1fr;gap:80px;margin-bottom:90px;align-items:center}
+.ap-services-visual{position:relative;width:100%;aspect-ratio:6/5}
+.ap-services-visual svg{width:100%;height:100%;display:block}
+.ap-services-copy h2{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2rem,4.8vw,4.4rem);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:#fff;margin:0 0 28px}
+.ap-services-copy h2 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--yellow);text-transform:lowercase}
+.ap-services-copy p{color:#CBB48A;font-size:1.0625rem;max-width:520px;line-height:1.65;margin:0}
+.ap-services-copy .ap-mono{color:var(--amber);margin-bottom:22px;display:block}
 .ap-sv-list{border-top:1px solid rgba(255,255,255,.14)}
 .ap-sv{display:grid;grid-template-columns:80px 1fr auto;gap:40px;padding:40px 0;border-bottom:1px solid rgba(255,255,255,.14);align-items:center;transition:background .3s,padding .2s;cursor:pointer}
 .ap-sv:hover{background:var(--brown);padding-left:20px;padding-right:20px}
@@ -2693,8 +2684,6 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
   .ap-mission,.ap-services,.ap-stats,.ap-process,.ap-quote,.ap-reviews,.ap-contact{padding:80px 0}
   .ap-stats-grid,.ap-process-grid,.ap-reviews-grid{grid-template-columns:1fr}
   .ap-footer-grid{grid-template-columns:1fr}
-  .ap-ticker-track{font-size:1rem;gap:30px}
-  .ap-marquee-track{gap:30px}
   .ap-sv{grid-template-columns:40px 1fr;gap:16px}
   .ap-sv-arrow{display:none}
   .ap-mobile{display:flex}
