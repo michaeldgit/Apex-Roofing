@@ -2546,24 +2546,24 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 
 /* Marquee strip of service words */
 /* Services section — big numbered list */
-.ap-services{padding:140px 0;background:var(--ink);color:#fff}
+.ap-services{padding:140px 0;background:var(--paper);color:var(--ink);overflow:hidden}
 .ap-services-in{max-width:1400px;margin:0 auto;padding:0 40px}
-.ap-services-head{display:grid;grid-template-columns:1.15fr 1fr;gap:80px;margin-bottom:90px;align-items:center}
-.ap-services-visual{position:relative;width:100%;aspect-ratio:6/5}
+.ap-services-head{display:grid;grid-template-columns:1fr minmax(300px,540px);align-items:center;gap:80px;margin-bottom:100px;padding-right:max(40px,calc((100% - 1320px)/2))}
+.ap-services-visual{width:100%;aspect-ratio:5/4;max-height:620px;overflow:hidden;border-radius:0 40px 40px 0}
 .ap-services-visual svg{width:100%;height:100%;display:block}
-.ap-services-copy h2{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2rem,4.8vw,4.4rem);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:#fff;margin:0 0 28px}
-.ap-services-copy h2 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--yellow);text-transform:lowercase}
-.ap-services-copy p{color:#CBB48A;font-size:1.0625rem;max-width:520px;line-height:1.65;margin:0}
-.ap-services-copy .ap-mono{color:var(--amber);margin-bottom:22px;display:block}
-.ap-sv-list{border-top:1px solid rgba(255,255,255,.14)}
-.ap-sv{display:grid;grid-template-columns:80px 1fr auto;gap:40px;padding:40px 0;border-bottom:1px solid rgba(255,255,255,.14);align-items:center;transition:background .3s,padding .2s;cursor:pointer}
-.ap-sv:hover{background:var(--brown);padding-left:20px;padding-right:20px}
-.ap-sv-num{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:2.2rem;color:var(--amber);line-height:1;letter-spacing:-.02em}
-.ap-sv-name{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(1.8rem,4vw,3.4rem);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:#fff;transition:color .2s}
-.ap-sv:hover .ap-sv-name{color:var(--yellow)}
-.ap-sv-meta{font-family:'DM Sans',sans-serif;font-size:.82rem;color:#CBB48A;letter-spacing:.02em;text-align:right;line-height:1.5;max-width:280px}
-.ap-sv-meta b{color:#fff;font-weight:700;display:block;font-size:.92rem}
-.ap-sv-arrow{font-size:2rem;color:var(--amber);transition:transform .2s}
+.ap-services-copy h2{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(2rem,4.8vw,4.4rem);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:var(--ink);margin:0 0 28px}
+.ap-services-copy h2 em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--amber-dk);text-transform:lowercase}
+.ap-services-copy p{color:var(--muted);font-size:1.0625rem;max-width:520px;line-height:1.65;margin:0}
+.ap-services-copy .ap-mono{color:var(--amber-dk);margin-bottom:22px;display:block}
+.ap-sv-list{border-top:1px solid var(--line)}
+.ap-sv{display:grid;grid-template-columns:80px 1fr auto;gap:40px;padding:40px 0;border-bottom:1px solid var(--line);align-items:center;transition:background .3s,padding .2s;cursor:pointer}
+.ap-sv:hover{background:var(--cream-2);padding-left:20px;padding-right:20px}
+.ap-sv-num{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:2.2rem;color:var(--amber-dk);line-height:1;letter-spacing:-.02em}
+.ap-sv-name{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(1.8rem,4vw,3.4rem);line-height:.95;letter-spacing:-.03em;text-transform:uppercase;color:var(--ink);transition:color .2s}
+.ap-sv:hover .ap-sv-name{color:var(--amber-dk)}
+.ap-sv-meta{font-family:'DM Sans',sans-serif;font-size:.82rem;color:var(--muted);letter-spacing:.02em;text-align:right;line-height:1.5;max-width:280px}
+.ap-sv-meta b{color:var(--ink);font-weight:700;display:block;font-size:.92rem}
+.ap-sv-arrow{font-size:2rem;color:var(--amber-dk);transition:transform .2s}
 .ap-sv:hover .ap-sv-arrow{transform:translateX(6px)}
 
 /* Stats billboard */
@@ -2665,7 +2665,9 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 @media (max-width:1024px){
   .ap-nav{display:none}
   .ap-mission-in{grid-template-columns:1fr;gap:40px}
-  .ap-services-head,.ap-reviews-head{grid-template-columns:1fr}
+  .ap-services-head{grid-template-columns:1fr;gap:40px;padding-right:0}
+  .ap-services-copy{padding:0 22px}
+  .ap-reviews-head{grid-template-columns:1fr}
   .ap-reviews-score{text-align:left}
   .ap-stats-grid{grid-template-columns:repeat(2,1fr)}
   .ap-process-grid{grid-template-columns:repeat(2,1fr)}
