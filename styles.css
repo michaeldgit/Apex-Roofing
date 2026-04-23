@@ -2524,7 +2524,7 @@ body.ap .sticky-cta,body.ap .site-header{display:none}
 .ap-hero-in{position:relative;z-index:2;max-width:1400px;width:100%;margin:0 auto;text-align:center;color:#fff}
 .ap-hero-eyebrow{color:#fff;margin-bottom:30px;display:inline-flex;align-items:center;gap:10px}
 .ap-hero-eyebrow::before,.ap-hero-eyebrow::after{content:"";width:40px;height:1px;background:rgba(255,255,255,.5);display:inline-block}
-.ap-hero-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(3.2rem,12vw,11rem);line-height:.88;letter-spacing:-.04em;text-transform:uppercase;color:#fff;margin:0 0 50px}
+.ap-hero-h{font-family:'Archivo Black','Arial Black',sans-serif;font-weight:900;font-size:clamp(3.5rem,10vw,10rem);line-height:.9;letter-spacing:-.04em;text-transform:uppercase;color:#fff;margin:0 0 50px}
 .ap-hero-h span{display:block}
 .ap-hero-h em{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--yellow);letter-spacing:-.02em;text-transform:lowercase}
 .ap-hero-cta-wrap{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center;align-items:center}
