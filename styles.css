@@ -2796,14 +2796,14 @@ body.rm .rm-svc-btn:hover{background:var(--rm-brown-dk);color:#fff;transform:tra
   .rm-services-grid{grid-template-columns:1fr;gap:56px}
 }
 
-.rm-values{background:var(--rm-beige);padding:110px 0}
-.rm-values-h{text-align:center;font-size:clamp(2rem,4vw,3.2rem);font-weight:700;margin-bottom:80px;letter-spacing:-.015em}
-.rm-values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:56px 60px}
-.rm-value{text-align:center}
-.rm-value-ico{width:74px;height:74px;margin:0 auto 22px;color:var(--rm-brown)}
-.rm-value-ico svg{width:100%;height:100%}
-.rm-value h3{font-size:1.18rem;font-weight:700;margin-bottom:12px;line-height:1.3}
-.rm-value p{color:var(--rm-text);font-size:.98rem;line-height:1.6;max-width:280px;margin:0 auto}
+.rm-mission{background:var(--rm-cream);padding:110px 0}
+.rm-mission-in{display:grid;grid-template-columns:1.05fr .95fr;gap:0;align-items:center;position:relative}
+.rm-mission-box{background:var(--rm-brown);color:#fff;padding:72px 72px;border-radius:2px;position:relative;z-index:2;box-shadow:0 24px 60px -24px rgba(58,36,16,.35)}
+body.rm .rm-mission-box h2{color:#fff;font-size:clamp(2rem,3.6vw,2.8rem);font-weight:700;margin:0 0 32px;letter-spacing:-.01em;line-height:1.2}
+body.rm .rm-mission-box p{color:#fff;font-size:1.05rem;line-height:1.8;margin:0 0 24px}
+body.rm .rm-mission-box p:last-child{margin-bottom:0}
+.rm-mission-photo{margin-left:-80px;position:relative;z-index:1}
+.rm-mission-photo img{width:100%;height:auto;display:block;border-radius:2px;box-shadow:0 24px 60px -24px rgba(58,36,16,.35)}
 
 .rm-photo-cards{background:var(--rm-paper);padding:110px 0}
 .rm-photo-cards-h{text-align:center;font-size:clamp(2rem,3.8vw,3rem);font-weight:700;margin-bottom:70px;line-height:1.15}
@@ -2871,7 +2871,9 @@ body.rm .rm-footer-bar a:hover{color:#F5C52D}
   .rm-story-in{grid-template-columns:1fr;gap:50px}
   .rm-story-alt .rm-story-photo{order:2}
   .rm-story-alt .rm-story-copy{order:1}
-  .rm-values-grid{grid-template-columns:repeat(2,1fr);gap:48px 32px}
+  .rm-mission-in{grid-template-columns:1fr;gap:0}
+  .rm-mission-box{padding:52px 40px}
+  .rm-mission-photo{margin-left:0;margin-top:-40px;padding:0 40px}
   .rm-photo-cards-grid{grid-template-columns:1fr;gap:28px}
   .rm-reviews-grid{grid-template-columns:1fr;gap:20px}
   .rm-footer-in{grid-template-columns:1fr 1fr;gap:36px}
@@ -2887,8 +2889,9 @@ body.rm .rm-footer-bar a:hover{color:#F5C52D}
   .rm-hero h1{font-size:2rem;margin-bottom:28px}
   .rm-stats{padding:0 16px 40px;margin-top:-40px}
   .rm-stats-in{padding:40px 20px}
-  .rm-story,.rm-values,.rm-photo-cards,.rm-reviews,.rm-quote{padding:64px 0}
-  .rm-values-grid{grid-template-columns:1fr;gap:40px}
+  .rm-story,.rm-mission,.rm-photo-cards,.rm-reviews,.rm-quote{padding:64px 0}
+  .rm-mission-box{padding:40px 28px}
+  body.rm .rm-mission-box h2{margin-bottom:24px}
   .rm-qform{padding:28px 22px}
   .rm-qform-row{grid-template-columns:1fr}
   .rm-footer-in{grid-template-columns:1fr;gap:32px;padding-top:50px;padding-bottom:40px}
