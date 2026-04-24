@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=54">
+<link rel="stylesheet" href="styles.css?v=55">
 </head>
 <body class="rm">
 
@@ -300,7 +300,7 @@
 <section class="rm-quote" id="quote">
   <div class="rm-wrap rm-quote-in">
     <div class="rm-qform-card">
-      <form class="rm-qform" onsubmit="event.preventDefault(); this.querySelector('.rm-qform-done').hidden=false; this.querySelector('.rm-qform-fields').hidden=true;">
+      <form class="rm-qform" onsubmit="event.preventDefault(); document.getElementById('rm-modal').setAttribute('open',''); this.reset();">
         <div class="rm-qform-fields">
           <div class="rm-qform-row">
             <input type="text" name="first" required placeholder="First Name" autocomplete="given-name">
@@ -314,14 +314,23 @@
           <textarea name="msg" placeholder="Roofing Needs &amp; Concerns" rows="4"></textarea>
           <button type="submit" class="rm-qform-btn">Contact Us</button>
         </div>
-        <div class="rm-qform-done" hidden>
-          <h3>Got it &mdash; we'll be in touch.</h3>
-          <p>Expect a call or text within the hour. Prefer to talk now? <a href="tel:+13034812739">(303) 481-2739</a>.</p>
-        </div>
       </form>
     </div>
   </div>
 </section>
+
+<div class="rm-modal" id="rm-modal" role="dialog" aria-modal="true" aria-labelledby="rm-modal-title" onclick="if(event.target===this)this.removeAttribute('open')">
+  <div class="rm-modal-card">
+    <button type="button" class="rm-modal-close" aria-label="Close" onclick="document.getElementById('rm-modal').removeAttribute('open')">&times;</button>
+    <div class="rm-modal-ico" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><polyline points="5 12 10 17 19 7"/></svg>
+    </div>
+    <h3 id="rm-modal-title">Thanks &mdash; we've got it!</h3>
+    <p>An Apex specialist will reach out within <strong>1 business hour</strong> to schedule your free inspection.</p>
+    <p class="rm-modal-sub">Need help sooner?</p>
+    <a class="rm-modal-call" href="tel:+13034812739">Call (303) 481-2739</a>
+  </div>
+</div>
 
 <footer class="rm-footer" id="contact">
   <div class="rm-wrap rm-footer-in">
