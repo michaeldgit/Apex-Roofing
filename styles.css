@@ -2815,7 +2815,7 @@ body.rm .rm-gr-h{text-align:center;font-size:clamp(1.8rem,3.6vw,2.6rem);font-wei
 .rm-gr-yelp-word{font-family:'Poppins',sans-serif;font-size:2.6rem;font-weight:800;color:#d32323;letter-spacing:-.04em;line-height:1}
 .rm-gr-yelp-stars{background:#d32323;color:#fff;padding:4px 10px;border-radius:2px;letter-spacing:3px;font-size:1rem;margin-top:4px}
 
-.rm-gr-summary{background:#fff;border-radius:8px;padding:28px 36px;display:flex;align-items:center;gap:32px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin-bottom:32px;flex-wrap:wrap}
+.rm-gr-summary{background:#fff;border-radius:0;padding:28px 36px;display:flex;align-items:center;gap:32px;box-shadow:0 2px 8px rgba(0,0,0,.06);margin-bottom:32px;flex-wrap:wrap}
 .rm-gr-summary-left{display:flex;align-items:center;gap:12px;flex:0 0 auto}
 .rm-gr-g-ico{width:32px;height:32px}
 body.rm .rm-gr-summary-title{font-size:1.25rem;font-weight:600;color:#1f1f1f;letter-spacing:-.01em}
@@ -2830,7 +2830,7 @@ body.rm .rm-gr-review-btn:hover{background:#1246b0;color:#fff}
 .rm-gr-viewport{overflow:hidden;border-radius:8px;margin:-4px;padding:4px}
 .rm-gr-track{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none;padding-bottom:4px}
 .rm-gr-track::-webkit-scrollbar{display:none}
-.rm-gr-card{flex:0 0 calc((100% - 60px) / 4);scroll-snap-align:start;background:#fff;border-radius:8px;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.06);display:flex;flex-direction:column;gap:12px;height:260px;box-sizing:border-box}
+.rm-gr-card{flex:0 0 calc((100% - 60px) / 4);scroll-snap-align:start;background:#fff;border-radius:0;padding:24px;box-shadow:0 2px 8px rgba(0,0,0,.06);display:flex;flex-direction:column;gap:12px;height:260px;box-sizing:border-box}
 body.rm .rm-gr-text{color:#1f1f1f;font-size:.95rem;line-height:1.5;margin:0;flex:1;overflow:hidden}
 .rm-gr-card-head{display:flex;align-items:flex-start;gap:12px}
 .rm-gr-avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;color:#3a2410;flex:0 0 auto;font-size:1.05rem;position:relative}
