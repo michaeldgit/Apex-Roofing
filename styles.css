@@ -3043,27 +3043,19 @@ body.rm .rm-contact-row-body p,body.rm .rm-contact-row-body a{color:var(--rm-bro
 body.rm .rm-contact-row-body a{text-decoration:none}
 body.rm .rm-contact-row-body a:hover{text-decoration:underline;text-underline-offset:3px}
 
-body.rm .rm-qform-card-boxed{background:#fff;border:1px solid var(--rm-line);border-radius:24px;padding:44px;box-shadow:0 30px 60px -30px rgba(58,36,16,.22),0 10px 24px -12px rgba(58,36,16,.12);max-width:none}
-body.rm .rm-qform-head{margin:0 0 26px;padding:0 0 22px;border-bottom:1px solid var(--rm-line)}
-body.rm .rm-qform-head h3{font-size:clamp(1.3rem,2.2vw,1.6rem);font-weight:800;color:var(--rm-brown);letter-spacing:-.01em;margin:0 0 8px}
-body.rm .rm-qform-head p{color:var(--rm-muted);font-size:.98rem;line-height:1.6;margin:0}
-body.rm .rm-qform-card-boxed .rm-qform input,body.rm .rm-qform-card-boxed .rm-qform textarea{font-weight:500;color:#1f1f1f;background:var(--rm-cream);border:1px solid var(--rm-line);border-radius:12px;padding:16px 18px}
-body.rm .rm-qform-card-boxed .rm-qform input::placeholder,body.rm .rm-qform-card-boxed .rm-qform textarea::placeholder{color:#9c8f7e;font-weight:500}
-body.rm .rm-qform-card-boxed .rm-qform input:focus,body.rm .rm-qform-card-boxed .rm-qform textarea:focus{background:#fff;border-color:var(--rm-brown)}
-body.rm .rm-qform-card-boxed .rm-qform-btn{border-radius:12px;padding:18px 24px;margin-top:10px}
+body.rm .rm-qform-card-flat{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;max-width:none}
+body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.4vw,2.6rem);font-weight:800;color:var(--rm-brown);letter-spacing:-.015em;line-height:1.1;text-align:center;margin:0 0 34px}
 
 @media (max-width:960px){
   body.rm .rm-feature-grid,body.rm .rm-feature-grid-4,body.rm .rm-values{grid-template-columns:repeat(2,1fr)}
   body.rm .rm-two-col{grid-template-columns:1fr;gap:40px}
   body.rm .rm-two-col.rm-reverse{direction:ltr}
   body.rm .rm-contact-grid{grid-template-columns:1fr;gap:40px}
-  body.rm .rm-qform-card-boxed{padding:32px}
 }
 @media (max-width:640px){
   body.rm .rm-page-hero{padding:140px 0 56px}
   body.rm .rm-section{padding:64px 0}
   body.rm .rm-contact-section{padding-top:140px}
-  body.rm .rm-qform-card-boxed{padding:24px;border-radius:18px}
   body.rm .rm-feature-grid,body.rm .rm-feature-grid-4,body.rm .rm-values,body.rm .rm-feature-grid-2{grid-template-columns:1fr;gap:18px}
   body.rm .rm-cta{padding:60px 0}
 }
