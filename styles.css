@@ -3030,18 +3030,19 @@ body.rm .rm-cta .rm-btn:hover{background:var(--rm-brown-dk);border-color:var(--r
 body.rm .rm-contact-section{padding-top:170px}
 body.rm .rm-contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:72px;align-items:start}
 body.rm .rm-contact-info{display:flex;flex-direction:column;gap:6px}
-body.rm .rm-contact-intro{margin-bottom:18px}
-body.rm .rm-contact-intro .rm-eyebrow{display:inline-block;color:var(--rm-muted);font-size:.82rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;margin:0 0 14px}
+body.rm .rm-contact-intro{margin-bottom:12px}
 body.rm .rm-contact-info h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 14px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
-body.rm .rm-contact-intro > p{color:var(--rm-muted);font-size:1.05rem;line-height:1.7;margin:0}
+body.rm .rm-contact-intro > p{color:var(--rm-brown);font-size:1.05rem;line-height:1.7;margin:0;opacity:.85}
 
-body.rm .rm-contact-cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px}
-body.rm .rm-contact-card{display:block;background:#fff;border:1px solid var(--rm-line);border-radius:18px;padding:26px 24px;text-decoration:none;color:inherit;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
-body.rm a.rm-contact-card:hover{transform:translateY(-2px);border-color:rgba(58,36,16,.22);box-shadow:0 18px 36px -22px rgba(58,36,16,.35)}
-body.rm .rm-contact-card-ico{width:46px;height:46px;border-radius:12px;background:var(--rm-brown);color:var(--rm-yellow);display:flex;align-items:center;justify-content:center;margin:0 0 18px}
-body.rm .rm-contact-card-ico svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-body.rm .rm-contact-card h4{font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rm-muted);font-weight:600;margin:0 0 8px}
-body.rm .rm-contact-card-val{color:var(--rm-brown);font-size:1.05rem;line-height:1.5;font-weight:600;display:block}
+body.rm .rm-contact-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+body.rm .rm-contact-item{display:flex;gap:20px;align-items:flex-start;padding:22px 0;border-top:1px solid rgba(58,36,16,.18)}
+body.rm .rm-contact-item:last-child{border-bottom:1px solid rgba(58,36,16,.18)}
+body.rm .rm-contact-item-ico{width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:var(--rm-brown);flex-shrink:0;margin-top:2px}
+body.rm .rm-contact-item-ico svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+body.rm .rm-contact-item-body h4{font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rm-brown);opacity:.7;font-weight:700;margin:0 0 6px}
+body.rm .rm-contact-item-body p,body.rm .rm-contact-item-body a{color:var(--rm-brown);font-size:1.1rem;line-height:1.5;margin:0;font-weight:600;display:block}
+body.rm .rm-contact-item-body a{text-decoration:none;transition:opacity .15s ease}
+body.rm .rm-contact-item-body a:hover{opacity:.72}
 
 body.rm .rm-qform-card-flat{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;max-width:none}
 body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.4vw,2.6rem);font-weight:800;color:var(--rm-brown);letter-spacing:-.015em;line-height:1.1;text-align:center;margin:0 0 34px}
@@ -3056,8 +3057,7 @@ body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,
   body.rm .rm-page-hero{padding:140px 0 56px}
   body.rm .rm-section{padding:64px 0}
   body.rm .rm-contact-section{padding-top:140px}
-  body.rm .rm-contact-cards{grid-template-columns:1fr;gap:14px}
-  body.rm .rm-contact-card{padding:22px 20px}
+  body.rm .rm-contact-item{gap:16px;padding:18px 0}
   body.rm .rm-feature-grid,body.rm .rm-feature-grid-4,body.rm .rm-values,body.rm .rm-feature-grid-2{grid-template-columns:1fr;gap:18px}
   body.rm .rm-cta{padding:60px 0}
 }
