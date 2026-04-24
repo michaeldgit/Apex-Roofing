@@ -3089,7 +3089,7 @@ body.rm .rm-service-row{display:grid;grid-template-columns:1fr 1fr;gap:80px;alig
 body.rm .rm-service-row.rm-reverse .rm-service-img{order:2}
 body.rm .rm-service-row.rm-reverse .rm-service-copy{order:1}
 
-body.rm .rm-service-img{aspect-ratio:1/1;background-size:cover;background-position:center;border-radius:24px;box-shadow:0 40px 70px -32px rgba(58,36,16,.38),0 14px 28px -14px rgba(58,36,16,.18)}
+body.rm .rm-service-img{aspect-ratio:1/1;background-size:cover;background-position:center;border-radius:0;box-shadow:0 40px 70px -32px rgba(58,36,16,.38),0 14px 28px -14px rgba(58,36,16,.18)}
 
 body.rm .rm-service-copy{max-width:560px}
 body.rm .rm-service-tag{display:inline-block;color:var(--rm-brown);background:var(--rm-brown-soft);padding:8px 14px;border-radius:999px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;margin:0 0 22px}
@@ -3114,5 +3114,5 @@ body.rm .rm-service-detail li::before{content:"";position:absolute;left:0;top:.6
   body.rm .rm-res-hero{padding-top:140px;padding-bottom:30px}
   body.rm .rm-service-block{padding:48px 0}
   body.rm .rm-service-block-first{padding-top:130px}
-  body.rm .rm-service-img{border-radius:18px}
+  body.rm .rm-service-img{border-radius:0}
 }
