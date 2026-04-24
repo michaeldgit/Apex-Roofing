@@ -2757,11 +2757,11 @@ body.rm .rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:
 body.rm .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border:1px solid #fff}
 body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
-.rm-stats{background:transparent;padding:0 32px 60px;margin-top:-80px;position:relative;z-index:3;color:#fff}
+.rm-stats{background:transparent;padding:0 32px 60px;margin-top:-80px;position:relative;z-index:3;color:#FAF5EA}
 .rm-stats-in{background:#3A2410;display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center;max-width:1200px;margin:0 auto;padding:56px 40px}
 .rm-stat{flex:1;min-width:220px}
-.rm-stat-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:#fff;letter-spacing:-.01em}
-.rm-stat-label{margin-top:14px;font-size:1.15rem;font-weight:500;color:#fff;letter-spacing:.01em}
+.rm-stat-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:#FAF5EA;letter-spacing:-.01em}
+.rm-stat-label{margin-top:14px;font-size:1.15rem;font-weight:500;color:#FAF5EA;letter-spacing:.01em}
 
 .rm-story{background:var(--rm-cream);padding:100px 0}
 .rm-story-in{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
@@ -2825,24 +2825,24 @@ body.rm .rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2r
 .rm-qform-done p{color:var(--rm-muted)}
 .rm-qform-done a{color:var(--rm-brown);font-weight:700}
 
-.rm-footer{background:#1C1108;color:#E6DDD0;padding-top:0}
+.rm-footer{background:#3A2410;color:#FAF5EA;padding-top:0}
 .rm-footer-in{padding:80px 0 48px;display:grid;grid-template-columns:1.1fr .9fr .9fr 1.1fr;gap:56px}
-.rm-footer-col h4{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:24px;letter-spacing:.01em}
-.rm-footer-col p{color:#C9BFAF;margin-bottom:14px;line-height:1.6;font-size:.98rem}
-.rm-footer-col a{color:#C9BFAF;text-decoration:none;transition:color .15s}
+.rm-footer-col h4{font-size:1.15rem;font-weight:700;color:#FAF5EA;margin-bottom:24px;letter-spacing:.01em}
+.rm-footer-col p{color:#E6DDD0;margin-bottom:14px;line-height:1.6;font-size:.98rem}
+.rm-footer-col a{color:#E6DDD0;text-decoration:none;transition:color .15s}
 .rm-footer-col a:hover{color:#F5C52D}
 .rm-footer-brand .rm-footer-logo{display:flex;align-items:center;gap:12px;margin-bottom:18px}
 .rm-footer-logo-ico{width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center}
 .rm-footer-logo-ico svg{width:100%;height:100%}
-.rm-footer-logo-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.5rem;color:#fff;letter-spacing:-.01em}
+.rm-footer-logo-name{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.5rem;color:#FAF5EA;letter-spacing:-.01em}
 .rm-footer-logo-name em{font-style:normal;color:#F5C52D;margin-left:2px}
-.rm-footer-tag{color:#A89A85;font-size:.95rem;line-height:1.6;max-width:320px}
-.rm-footer-map-col .rm-footer-map-wrap{position:relative;display:block;width:100%;aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:#0F0905}
+.rm-footer-tag{color:#D8CBB4;font-size:.95rem;line-height:1.6;max-width:320px}
+.rm-footer-map-col .rm-footer-map-wrap{position:relative;display:block;width:100%;aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:#2A1A0B}
 .rm-footer-map-frame{width:100%;height:100%;border:0;display:block}
-.rm-footer-bar{border-top:1px solid rgba(255,255,255,.08);padding:24px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.9rem;color:#8A7E6A;max-width:1200px;margin:0 auto;width:calc(100% - 64px)}
+.rm-footer-bar{border-top:1px solid rgba(250,245,234,.14);padding:24px 0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.9rem;color:#C2B59A;max-width:1200px;margin:0 auto;width:calc(100% - 64px)}
 .rm-footer-bar-links{display:flex;align-items:center;gap:12px}
-.rm-footer-bar-dot{color:#8A7E6A}
-body.rm .rm-footer-bar a{color:#8A7E6A;text-decoration:none}
+.rm-footer-bar-dot{color:#C2B59A}
+body.rm .rm-footer-bar a{color:#C2B59A;text-decoration:none}
 body.rm .rm-footer-bar a:hover{color:#F5C52D}
 
 .rm-mobile-call{display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:50;background:var(--rm-brown);color:#fff;font-weight:700;text-align:center;padding:16px;border-radius:14px;box-shadow:0 14px 30px rgba(20,20,20,.3)}
