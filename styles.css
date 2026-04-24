@@ -2884,8 +2884,8 @@ body.rm .rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2r
 .rm-qform input::placeholder,.rm-qform textarea::placeholder{color:#1f1f1f;font-weight:700;opacity:1}
 .rm-qform input:focus,.rm-qform textarea:focus{box-shadow:0 0 0 3px rgba(255,255,255,.5)}
 .rm-qform textarea{resize:vertical;min-height:140px}
-.rm-qform-btn{background:var(--rm-cream);color:var(--rm-brown);border:0;border-radius:16px;padding:20px 28px;font-family:inherit;font-size:1.05rem;font-weight:700;cursor:pointer;width:100%;margin-top:6px;transition:background .2s ease,transform .15s ease}
-.rm-qform-btn:hover{background:#ebe3cd;transform:translateY(-1px)}
+.rm-qform-btn{background:#000;color:#000;border:0;border-radius:16px;padding:20px 28px;font-family:inherit;font-size:1.05rem;font-weight:700;cursor:pointer;width:100%;margin-top:6px;transition:background .2s ease,transform .15s ease}
+.rm-qform-btn:hover{background:#1a1a1a;transform:translateY(-1px)}
 .rm-modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(58,36,16,.55);backdrop-filter:blur(4px)}
 .rm-modal[open]{display:flex}
 .rm-modal-card{background:#fff;border-radius:24px;max-width:440px;width:100%;padding:48px 40px 40px;text-align:center;position:relative;box-shadow:0 30px 80px -20px rgba(0,0,0,.4);animation:rm-modal-in .28s ease-out}
