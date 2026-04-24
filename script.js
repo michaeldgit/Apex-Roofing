@@ -135,4 +135,37 @@
   document.querySelectorAll('[data-year]').forEach(function(el){
     el.textContent = new Date().getFullYear();
   });
+
+  // Count-up stats
+  var counts = document.querySelectorAll('.rm-stat-count');
+  function animateCount(el){
+    var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    var duration = 1800;
+    var start = performance.now();
+    function tick(now){
+      var p = Math.min((now - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.floor(target * eased);
+      el.textContent = val.toLocaleString();
+      if (p < 1) requestAnimationFrame(tick);
+      else el.textContent = target.toLocaleString();
+    }
+    requestAnimationFrame(tick);
+  }
+  if ('IntersectionObserver' in window && counts.length){
+    var co = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){
+          animateCount(en.target);
+          co.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.35});
+    counts.forEach(function(el){ co.observe(el); });
+  } else {
+    counts.forEach(function(el){
+      var t = parseInt(el.getAttribute('data-count'), 10) || 0;
+      el.textContent = t.toLocaleString();
+    });
+  }
 })();
