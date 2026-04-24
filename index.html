@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=49">
+<link rel="stylesheet" href="styles.css?v=50">
 </head>
 <body class="rm">
 
@@ -299,26 +299,31 @@
 
 <section class="rm-quote" id="quote">
   <div class="rm-wrap rm-quote-in">
-    <form class="rm-qform" onsubmit="event.preventDefault(); this.querySelector('.rm-qform-done').hidden=false; this.querySelector('.rm-qform-fields').hidden=true;">
-      <h2>Free, No-Pressure Estimate</h2>
-      <p class="rm-qform-sub">We'll text or call within 1 business hour. No obligation.</p>
-      <div class="rm-qform-fields">
-        <div class="rm-qform-row">
-          <input type="text" name="name" required placeholder="Full name" autocomplete="name">
-          <input type="tel" name="phone" required placeholder="Phone" autocomplete="tel">
+    <div class="rm-qform-card">
+      <form class="rm-qform" onsubmit="event.preventDefault(); this.querySelector('.rm-qform-done').hidden=false; this.querySelector('.rm-qform-fields').hidden=true;">
+        <div class="rm-qform-fields">
+          <div class="rm-qform-row">
+            <input type="text" name="first" required placeholder="First Name" autocomplete="given-name">
+            <input type="text" name="last" required placeholder="Last Name" autocomplete="family-name">
+          </div>
+          <div class="rm-qform-row">
+            <input type="email" name="email" required placeholder="Email*" autocomplete="email">
+            <input type="text" name="address" placeholder="Property Address" autocomplete="street-address">
+          </div>
+          <input type="tel" name="phone" required placeholder="Phone Number" autocomplete="tel">
+          <textarea name="msg" placeholder="Roofing Needs &amp; Concerns" rows="4"></textarea>
+          <button type="submit" class="rm-qform-btn">Contact Us</button>
         </div>
-        <div class="rm-qform-row">
-          <input type="email" name="email" required placeholder="Email" autocomplete="email">
-          <input type="text" name="zip" required placeholder="ZIP code" inputmode="numeric" pattern="[0-9]{5}" autocomplete="postal-code">
+        <div class="rm-qform-done" hidden>
+          <h3>Got it &mdash; we'll be in touch.</h3>
+          <p>Expect a call or text within the hour. Prefer to talk now? <a href="tel:+13034812739">(303) 481-2739</a>.</p>
         </div>
-        <textarea name="msg" placeholder="Tell us about your roof (optional)" rows="4"></textarea>
-        <button type="submit" class="rm-btn rm-btn-primary rm-btn-lg rm-btn-block">Get My Free Estimate</button>
+      </form>
+      <div class="rm-qform-brand" aria-hidden="true">
+        <svg class="rm-qform-brand-ico" viewBox="0 0 200 125" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="M 149 41 L 181 41 L 181 54 L 174 54 L 174 93 L 156 93 L 156 54 L 149 54 Z"/><path d="M 0 115 L 100 22 L 200 115 L 165 115 L 100 56 L 35 115 Z"/></svg>
+        <div class="rm-qform-brand-name">APEX ROOFING</div>
       </div>
-      <div class="rm-qform-done" hidden>
-        <h3>Got it &mdash; we'll be in touch.</h3>
-        <p>Expect a call or text within the hour. Prefer to talk now? <a href="tel:+13034812739">(303) 481-2739</a>.</p>
-      </div>
-    </form>
+    </div>
   </div>
 </section>
 
