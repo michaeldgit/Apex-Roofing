@@ -2778,7 +2778,7 @@ body.rm .rm-story-copy p:last-of-type{margin-bottom:0}
 .rm-photo-home2::after{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><path d='M40 200 L120 120 L200 200 Z' fill='%231E1105' opacity='0.75'/><path d='M180 200 L280 100 L380 200 Z' fill='%232A180A' opacity='0.8'/><rect x='60' y='200' width='160' height='80' fill='%234A3018' opacity='0.7'/><rect x='220' y='200' width='170' height='80' fill='%235A3A1C' opacity='0.65'/><rect x='110' y='230' width='30' height='50' fill='%23F5C52D' opacity='0.75'/><rect x='260' y='230' width='30' height='50' fill='%23F5C52D' opacity='0.55'/></svg>");background-size:cover;background-position:center}
 .rm-story-alt{background:var(--rm-brown-soft)}
 
-.rm-services-grid-section{background:var(--rm-brown-soft);padding:100px 0}
+.rm-services-grid-section{background:var(--rm-cream);padding:100px 0}
 body.rm .rm-services-h{font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.2;margin:0 0 56px;letter-spacing:-.01em;text-align:center}
 .rm-services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 40px}
 .rm-svc-card{display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px}
