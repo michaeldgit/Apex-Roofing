@@ -3027,25 +3027,24 @@ body.rm .rm-cta .rm-btn{background:var(--rm-brown);color:#fff;border-color:var(-
 body.rm .rm-cta .rm-btn:hover{background:var(--rm-brown-dk);border-color:var(--rm-brown-dk);color:#fff}
 
 /* ===== Contact page ===== */
-body.rm .rm-contact-section{padding-top:170px}
-body.rm .rm-contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:72px;align-items:start}
-body.rm .rm-contact-info{display:flex;flex-direction:column;gap:6px}
-body.rm .rm-contact-intro{margin-bottom:12px}
-body.rm .rm-contact-info h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 14px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
-body.rm .rm-contact-intro > p{color:var(--rm-brown);font-size:1.05rem;line-height:1.7;margin:0;opacity:.85}
+body.rm .rm-contact-section{padding-top:170px;padding-bottom:120px}
+body.rm .rm-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+body.rm .rm-contact-info{display:flex;flex-direction:column}
+body.rm .rm-contact-intro{margin:0}
+body.rm .rm-contact-info h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 28px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
 
 body.rm .rm-contact-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-body.rm .rm-contact-item{display:flex;gap:20px;align-items:flex-start;padding:22px 0;border-top:1px solid rgba(58,36,16,.18)}
-body.rm .rm-contact-item:last-child{border-bottom:1px solid rgba(58,36,16,.18)}
-body.rm .rm-contact-item-ico{width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:var(--rm-brown);flex-shrink:0;margin-top:2px}
+body.rm .rm-contact-item{display:flex;gap:22px;align-items:center;padding:22px 4px;border-top:1px solid rgba(58,36,16,.16)}
+body.rm .rm-contact-item:last-child{border-bottom:1px solid rgba(58,36,16,.16)}
+body.rm .rm-contact-item-ico{width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:var(--rm-brown);flex-shrink:0}
 body.rm .rm-contact-item-ico svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-body.rm .rm-contact-item-body h4{font-size:.76rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rm-brown);opacity:.7;font-weight:700;margin:0 0 6px}
-body.rm .rm-contact-item-body p,body.rm .rm-contact-item-body a{color:var(--rm-brown);font-size:1.1rem;line-height:1.5;margin:0;font-weight:600;display:block}
+body.rm .rm-contact-item-body h4{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--rm-brown);opacity:.6;font-weight:700;margin:0 0 6px}
+body.rm .rm-contact-item-body p,body.rm .rm-contact-item-body a{color:var(--rm-brown);font-size:1.08rem;line-height:1.45;margin:0;font-weight:600;display:block}
 body.rm .rm-contact-item-body a{text-decoration:none;transition:opacity .15s ease}
 body.rm .rm-contact-item-body a:hover{opacity:.72}
 
 body.rm .rm-qform-card-flat{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;max-width:none}
-body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.4vw,2.6rem);font-weight:800;color:var(--rm-brown);letter-spacing:-.015em;line-height:1.1;text-align:center;margin:0 0 34px}
+body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;color:var(--rm-brown);letter-spacing:-.015em;line-height:1.15;text-align:center;margin:0 0 28px}
 
 @media (max-width:960px){
   body.rm .rm-feature-grid,body.rm .rm-feature-grid-4,body.rm .rm-values{grid-template-columns:repeat(2,1fr)}
