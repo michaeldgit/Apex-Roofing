@@ -173,43 +173,64 @@
 (function(){
   var track = document.querySelector('.rm-gr-track');
   if (!track) return;
+  var prevBtn = document.querySelector('.rm-gr-prev');
   var nextBtn = document.querySelector('.rm-gr-next');
-  var dots = Array.prototype.slice.call(document.querySelectorAll('.rm-gr-dot'));
+  var dotsWrap = document.querySelector('.rm-gr-dots');
+  var idx = 0;
+  var dots = [];
 
   function step(){
     var card = track.querySelector('.rm-gr-card');
     if (!card) return 0;
     return card.getBoundingClientRect().width + 20;
   }
-  function currentIndex(){
-    var s = step();
-    return s ? Math.round(track.scrollLeft / s) : 0;
-  }
   function maxIndex(){
     var s = step();
     if (!s) return 0;
     return Math.max(0, Math.round((track.scrollWidth - track.clientWidth) / s));
   }
-  function updateDots(){
-    var i = currentIndex();
-    dots.forEach(function(d, di){ d.classList.toggle('is-active', di === i); });
+  function buildDots(){
+    if (!dotsWrap) return;
+    dotsWrap.innerHTML = '';
+    dots = [];
+    var n = maxIndex() + 1;
+    for (var i = 0; i < n; i++){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'rm-gr-dot';
+      b.setAttribute('aria-label', 'Go to review ' + (i + 1));
+      (function(i){
+        b.addEventListener('click', function(){ go(i); });
+      })(i);
+      dotsWrap.appendChild(b);
+      dots.push(b);
+    }
   }
-  if (nextBtn){
-    nextBtn.addEventListener('click', function(){
-      var i = currentIndex();
-      var next = i >= maxIndex() ? 0 : i + 1;
-      track.scrollTo({ left: next * step(), behavior: 'smooth' });
-    });
+  function render(){
+    var mx = maxIndex();
+    if (idx > mx) idx = mx;
+    if (idx < 0) idx = 0;
+    track.scrollTo({ left: idx * step(), behavior: 'smooth' });
+    dots.forEach(function(d, di){ d.classList.toggle('is-active', di === idx); });
+    if (prevBtn) prevBtn.hidden = idx === 0;
+    if (nextBtn) nextBtn.hidden = idx >= mx;
   }
-  dots.forEach(function(dot, di){
-    dot.addEventListener('click', function(){
-      var target = Math.min(di, maxIndex());
-      track.scrollTo({ left: target * step(), behavior: 'smooth' });
-    });
-  });
-  var t;
-  track.addEventListener('scroll', function(){
-    clearTimeout(t);
-    t = setTimeout(updateDots, 60);
+  function go(i){
+    idx = i;
+    render();
+  }
+  if (prevBtn) prevBtn.addEventListener('click', function(){ go(idx - 1); });
+  if (nextBtn) nextBtn.addEventListener('click', function(){ go(idx + 1); });
+
+  buildDots();
+  render();
+
+  var rt;
+  window.addEventListener('resize', function(){
+    clearTimeout(rt);
+    rt = setTimeout(function(){
+      buildDots();
+      render();
+    }, 150);
   });
 })();
