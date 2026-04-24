@@ -3020,11 +3020,11 @@ body.rm .rm-value h3{font-size:1.1rem;font-weight:700;margin:0 0 10px}
 body.rm .rm-value p{color:var(--rm-muted);font-size:.95rem;line-height:1.65;margin:0}
 
 /* ===== CTA band ===== */
-body.rm .rm-cta{background:var(--rm-brown);color:#fff;padding:80px 0;text-align:center}
-body.rm .rm-cta h2{color:#fff;font-size:clamp(1.8rem,3.6vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin:0 0 18px}
-body.rm .rm-cta p{color:rgba(255,255,255,.78);font-size:1.1rem;line-height:1.6;margin:0 auto 34px;max-width:620px}
-body.rm .rm-cta .rm-btn{background:var(--rm-yellow);color:var(--rm-brown);border-color:var(--rm-yellow);font-weight:700}
-body.rm .rm-cta .rm-btn:hover{background:var(--rm-yellow-dk);border-color:var(--rm-yellow-dk);color:var(--rm-brown)}
+body.rm .rm-cta{background:var(--rm-cream);color:var(--rm-brown);padding:80px 0;text-align:center}
+body.rm .rm-cta h2{color:var(--rm-brown);font-size:clamp(1.8rem,3.6vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin:0 0 18px}
+body.rm .rm-cta p{color:var(--rm-muted);font-size:1.1rem;line-height:1.6;margin:0 auto 34px;max-width:620px}
+body.rm .rm-cta .rm-btn{background:var(--rm-brown);color:#fff;border-color:var(--rm-brown);font-weight:700}
+body.rm .rm-cta .rm-btn:hover{background:var(--rm-brown-dk);border-color:var(--rm-brown-dk);color:#fff}
 
 /* ===== Contact page ===== */
 body.rm .rm-contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:start}
