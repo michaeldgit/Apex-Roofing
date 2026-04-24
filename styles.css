@@ -2758,7 +2758,7 @@ body.rm .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border:1px solid
 body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
 .rm-stats{background:transparent;padding:0 32px 60px;margin-top:-80px;position:relative;z-index:3;color:#fff}
-.rm-stats-in{background:#1C1108;display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center;max-width:1200px;margin:0 auto;padding:56px 40px}
+.rm-stats-in{background:#3A2410;display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center;max-width:1200px;margin:0 auto;padding:56px 40px}
 .rm-stat{flex:1;min-width:220px}
 .rm-stat-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:#fff;letter-spacing:-.01em}
 .rm-stat-label{margin-top:14px;font-size:1.15rem;font-weight:500;color:#fff;letter-spacing:.01em}
