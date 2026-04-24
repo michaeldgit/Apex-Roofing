@@ -2757,14 +2757,11 @@ body.rm .rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:
 body.rm .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border:1px solid #fff}
 body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
-.rm-trust-logos{background:#fff;padding:60px 0}
-.rm-trust-logos-in{display:flex;justify-content:center;align-items:center;gap:80px;flex-wrap:wrap}
-.rm-tlogo{display:flex;flex-direction:column;align-items:center;padding:18px 26px;border:2px solid var(--rm-brown);border-radius:12px;min-width:170px;background:#fff}
-.rm-tlogo-alt{background:var(--rm-brown);border-color:var(--rm-brown);color:#fff}
-.rm-tlogo-alt .rm-tlogo-main{color:var(--rm-yellow)}
-.rm-tlogo-main{font-weight:800;font-size:1.5rem;color:var(--rm-brown);letter-spacing:.02em;line-height:1}
-.rm-tlogo-sub{margin-top:6px;font-size:.85rem;font-weight:600;color:inherit;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
-.rm-tlogo-stars{color:var(--rm-yellow);font-size:1.05rem;letter-spacing:3px;margin-top:4px}
+.rm-stats{background:#1E4C8A;padding:70px 0;color:#fff}
+.rm-stats-in{display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center}
+.rm-stat{flex:1;min-width:220px}
+.rm-stat-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:#fff;letter-spacing:-.01em}
+.rm-stat-label{margin-top:14px;font-size:1.15rem;font-weight:500;color:#fff;letter-spacing:.01em}
 
 .rm-story{background:var(--rm-cream);padding:100px 0}
 .rm-story-in{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
@@ -2860,7 +2857,7 @@ body.rm .rm-footer-bar a:hover{color:#F5C52D}
   .rm-photo-cards-grid{grid-template-columns:1fr;gap:28px}
   .rm-reviews-grid{grid-template-columns:1fr;gap:20px}
   .rm-footer-in{grid-template-columns:1fr 1fr;gap:36px}
-  .rm-trust-logos-in{gap:30px}
+  .rm-stats-in{gap:30px}
 }
 @media (max-width:640px){
   .rm-wrap{padding:0 20px}
@@ -2870,7 +2867,7 @@ body.rm .rm-footer-bar a:hover{color:#F5C52D}
   .rm-header-cta{padding:12px 16px;font-size:.88rem}
   .rm-hero{min-height:480px;padding:70px 0}
   .rm-hero h1{font-size:2rem;margin-bottom:28px}
-  .rm-trust-logos{padding:40px 0}
+  .rm-stats{padding:48px 0}
   .rm-story,.rm-values,.rm-photo-cards,.rm-reviews,.rm-quote{padding:64px 0}
   .rm-values-grid{grid-template-columns:1fr;gap:40px}
   .rm-qform{padding:28px 22px}
