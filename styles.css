@@ -2819,7 +2819,7 @@ body.rm .rm-mission-box p:last-child{margin-bottom:0}
 .rm-mission-photo img{width:100%;height:auto;display:block;border-radius:2px;box-shadow:0 24px 60px -24px rgba(58,36,16,.35)}
 
 .rm-gr{background:var(--rm-cream);padding:100px 0}
-body.rm .rm-gr-h{text-align:center;font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:700;margin:0 0 48px;letter-spacing:-.01em}
+body.rm .rm-gr-h{text-align:center;font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 48px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
 .rm-gr-badges{display:flex;align-items:center;justify-content:center;gap:80px;flex-wrap:wrap;margin-bottom:40px}
 .rm-gr-badge{display:flex;flex-direction:column;align-items:center;gap:4px}
 .rm-gr-google-word{font-family:'Product Sans','Poppins',sans-serif;font-size:2.8rem;font-weight:500;letter-spacing:-.02em;line-height:1}
