@@ -140,7 +140,7 @@
   var counts = document.querySelectorAll('.rm-stat-count');
   function animateCount(el){
     var target = parseInt(el.getAttribute('data-count'), 10) || 0;
-    var duration = 1800;
+    var duration = 3200;
     var start = performance.now();
     function tick(now){
       var p = Math.min((now - start) / duration, 1);

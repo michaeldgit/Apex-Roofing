@@ -2757,8 +2757,8 @@ body.rm .rm-hero h1{color:#fff;font-size:clamp(2.4rem,5.6vw,4.4rem);font-weight:
 body.rm .rm-hero .rm-btn{box-shadow:0 10px 26px rgba(0,0,0,.25);border:1px solid #fff}
 body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
-.rm-stats{background:#1C1108;padding:70px 0;color:#fff}
-.rm-stats-in{display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center}
+.rm-stats{background:transparent;padding:0 32px 60px;margin-top:-80px;position:relative;z-index:3;color:#fff}
+.rm-stats-in{background:#1C1108;display:flex;justify-content:space-around;align-items:center;gap:40px;flex-wrap:wrap;text-align:center;max-width:1200px;margin:0 auto;padding:56px 40px}
 .rm-stat{flex:1;min-width:220px}
 .rm-stat-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2.8rem,5.5vw,4.2rem);line-height:1;color:#fff;letter-spacing:-.01em}
 .rm-stat-label{margin-top:14px;font-size:1.15rem;font-weight:500;color:#fff;letter-spacing:.01em}
@@ -2867,7 +2867,8 @@ body.rm .rm-footer-bar a:hover{color:#F5C52D}
   .rm-header-cta{padding:12px 16px;font-size:.88rem}
   .rm-hero{min-height:480px;padding:70px 0}
   .rm-hero h1{font-size:2rem;margin-bottom:28px}
-  .rm-stats{padding:48px 0}
+  .rm-stats{padding:0 16px 40px;margin-top:-40px}
+  .rm-stats-in{padding:40px 20px}
   .rm-story,.rm-values,.rm-photo-cards,.rm-reviews,.rm-quote{padding:64px 0}
   .rm-values-grid{grid-template-columns:1fr;gap:40px}
   .rm-qform{padding:28px 22px}
