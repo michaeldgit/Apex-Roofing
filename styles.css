@@ -2895,7 +2895,7 @@ body.rm .rm-modal-call:hover{background:var(--rm-brown-dk);color:#fff;transform:
 .rm-footer-in{padding:96px 0 56px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1.2fr;gap:48px;align-items:start}
 body.rm .rm-footer-col h4{font-size:1.5rem;font-weight:700;color:var(--rm-brown);margin:0 0 22px;letter-spacing:-.01em;line-height:1.2}
 .rm-footer-col p{color:var(--rm-brown);margin:0 0 60px;line-height:1.95;font-size:1.05rem}
-.rm-footer-col p.rm-footer-addr{line-height:1.45;margin-top:12px}
+.rm-footer-col p.rm-footer-addr{line-height:1.45;margin-top:8px}
 .rm-footer-col p:last-child{margin-bottom:0}
 .rm-footer-col a{color:var(--rm-brown);text-decoration:none;transition:color .15s}
 .rm-footer-col a:hover{color:var(--rm-brown-dk);text-decoration:underline;text-underline-offset:3px}
