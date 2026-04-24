@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=79">
+<link rel="stylesheet" href="styles.css?v=80">
 </head>
 <body class="rm">
 
@@ -34,11 +34,12 @@
   </div>
 </header>
 
-<section class="rm-section rm-section-cream" id="quote">
+<section class="rm-section rm-section-cream rm-contact-section" id="quote">
   <div class="rm-wrap">
     <div class="rm-contact-grid">
       <div class="rm-contact-info">
-        <div>
+        <div class="rm-contact-intro">
+          <span class="rm-eyebrow">Contact Apex</span>
           <h2>Call, email, or stop by.</h2>
           <p>We answer the phone between 7 AM and 7 PM, seven days a week. Outside those hours, leave a message and we'll call back first thing.</p>
         </div>
@@ -85,7 +86,11 @@
 
       </div>
 
-      <div class="rm-qform-card">
+      <div class="rm-qform-card rm-qform-card-boxed">
+        <div class="rm-qform-head">
+          <h3>Request a free estimate</h3>
+          <p>Tell us about your roof and we'll be in touch within one business hour.</p>
+        </div>
         <form class="rm-qform" onsubmit="event.preventDefault(); document.getElementById('rm-modal').setAttribute('open',''); this.reset();">
           <div class="rm-qform-fields">
             <div class="rm-qform-row">
