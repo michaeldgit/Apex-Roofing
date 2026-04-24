@@ -2765,12 +2765,13 @@ body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
 .rm-story{background:var(--rm-cream);padding:100px 0}
 .rm-story-in{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-.rm-story-copy h2{font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.15;margin-bottom:28px}
-.rm-story-copy p{font-size:1.08rem;color:var(--rm-text);margin-bottom:36px;line-height:1.65}
-.rm-story-actions{display:flex;gap:14px;flex-wrap:wrap}
+.rm-story-copy h2{font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.2;margin-bottom:32px;letter-spacing:-0.01em}
+.rm-story-copy p{font-size:1.08rem;color:var(--rm-text);margin-bottom:24px;line-height:1.8}
+.rm-story-copy p:last-of-type{margin-bottom:0}
+.rm-story-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
 .rm-story-photo{aspect-ratio:4/3;position:relative}
 .rm-photo-fill{width:100%;height:100%;position:relative}
-.rm-photo-clip{clip-path:polygon(0 0,100% 8%,100% 92%,0 100%)}
+.rm-photo-clip{aspect-ratio:1/1}
 .rm-photo-clip-rev{clip-path:polygon(0 8%,100% 0,100% 100%,0 92%)}
 .rm-photo-home1{background:url("roof-aerial.png") center/cover no-repeat,#3A2410}
 .rm-photo-home2{background:linear-gradient(180deg,rgba(245,197,45,.1) 0%,rgba(0,0,0,.4) 100%),radial-gradient(ellipse at 70% 30%,#E8A45A 0%,transparent 55%),linear-gradient(135deg,#3A2410 0%,#1E1105 100%)}
