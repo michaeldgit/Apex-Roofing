@@ -2778,7 +2778,7 @@ body.rm .rm-hero .rm-btn:hover{border-color:#fff}
 
 .rm-story{background:var(--rm-cream);padding:100px 0}
 .rm-story-in{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-body.rm .rm-story-copy h2{font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.25;margin-bottom:40px;letter-spacing:-0.01em}
+body.rm .rm-story-copy h2{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;line-height:1.15;margin-bottom:40px;letter-spacing:-.015em;color:var(--rm-brown)}
 body.rm .rm-story-copy p{font-size:1.08rem;color:var(--rm-text);margin:0 0 28px;line-height:1.85}
 body.rm .rm-story-copy p:last-of-type{margin-bottom:0}
 .rm-story-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
@@ -2792,7 +2792,7 @@ body.rm .rm-story-copy p:last-of-type{margin-bottom:0}
 .rm-story-alt{background:var(--rm-brown-soft)}
 
 .rm-services-grid-section{background:var(--rm-cream);padding:100px 0}
-body.rm .rm-services-h{font-size:clamp(2rem,3.8vw,3rem);font-weight:700;line-height:1.2;margin:0 0 56px;letter-spacing:-.01em;text-align:center}
+body.rm .rm-services-h{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;line-height:1.15;margin:0 0 56px;letter-spacing:-.015em;text-align:center;color:var(--rm-brown)}
 .rm-services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:48px 40px}
 .rm-svc-card{display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px}
 .rm-svc-img{width:100%;aspect-ratio:1/1;overflow:hidden;border-radius:0;background:var(--rm-beige-dk)}
