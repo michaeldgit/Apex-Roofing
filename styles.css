@@ -2876,16 +2876,16 @@ body.rm .rm-reviews-h{text-align:center;color:#fff;font-size:clamp(2rem,4vw,3.2r
 
 .rm-quote{background:var(--rm-cream);padding:90px 0}
 .rm-quote-in{max-width:1200px;margin:0 auto}
-.rm-qform-card{background:var(--rm-brown);border-radius:0;padding:56px 64px;max-width:780px;margin:0 auto;box-shadow:0 24px 60px -24px rgba(58,36,16,.4)}
+.rm-qform-card{background:transparent;border-radius:0;padding:0;max-width:780px;margin:0 auto;box-shadow:none}
 .rm-qform{width:100%}
 .rm-qform-fields{display:flex;flex-direction:column;gap:18px}
 .rm-qform-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.rm-qform input,.rm-qform textarea{font-family:inherit;font-size:1rem;color:#1f1f1f;font-weight:700;padding:18px 22px;border:0;border-radius:0;background:#fff;outline:none;transition:box-shadow .15s;width:100%;box-sizing:border-box}
+.rm-qform input,.rm-qform textarea{font-family:inherit;font-size:1rem;color:#1f1f1f;font-weight:700;padding:18px 22px;border:1px solid var(--rm-line);border-radius:0;background:#fff;outline:none;transition:box-shadow .15s,border-color .15s;width:100%;box-sizing:border-box}
 .rm-qform input::placeholder,.rm-qform textarea::placeholder{color:#1f1f1f;font-weight:700;opacity:1}
-.rm-qform input:focus,.rm-qform textarea:focus{box-shadow:0 0 0 3px rgba(255,255,255,.5)}
+.rm-qform input:focus,.rm-qform textarea:focus{border-color:var(--rm-brown);box-shadow:0 0 0 3px rgba(58,36,16,.15)}
 .rm-qform textarea{resize:vertical;min-height:140px}
-.rm-qform-btn{background:#000;color:#fff;border:0;border-radius:16px;padding:20px 28px;font-family:inherit;font-size:1.05rem;font-weight:700;cursor:pointer;width:100%;margin-top:6px;transition:background .2s ease,transform .15s ease}
-.rm-qform-btn:hover{background:#1a1a1a;transform:translateY(-1px)}
+.rm-qform-btn{background:var(--rm-brown);color:#fff;border:0;border-radius:16px;padding:20px 28px;font-family:inherit;font-size:1.05rem;font-weight:700;cursor:pointer;width:100%;margin-top:6px;transition:background .2s ease,transform .15s ease}
+.rm-qform-btn:hover{background:var(--rm-brown-dk);transform:translateY(-1px)}
 .rm-modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(58,36,16,.55);backdrop-filter:blur(4px)}
 .rm-modal[open]{display:flex}
 .rm-modal-card{background:#fff;border-radius:24px;max-width:440px;width:100%;padding:48px 40px 40px;text-align:center;position:relative;box-shadow:0 30px 80px -20px rgba(0,0,0,.4);animation:rm-modal-in .28s ease-out}
