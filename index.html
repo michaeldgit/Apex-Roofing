@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=40">
+<link rel="stylesheet" href="styles.css?v=41">
 </head>
 <body class="rm">
 
@@ -78,18 +78,46 @@
   </div>
 </section>
 
-<section class="rm-story rm-story-alt">
-  <div class="rm-wrap rm-story-in">
-    <div class="rm-story-photo rm-photo-clip-rev">
-      <div class="rm-photo-fill rm-photo-home2" aria-hidden="true"></div>
-    </div>
-    <div class="rm-story-copy">
-      <h2>New Shingles Add Decades of Protection</h2>
-      <p>Apex Roofing offers an industry-leading selection of low-maintenance products that can give your home a beautiful, timeless look while improving energy efficiency and increasing resale value.</p>
-      <div class="rm-story-actions">
-        <a class="rm-btn rm-btn-primary rm-btn-lg" href="tel:+13034812739">Call 303-481-2739</a>
-        <a class="rm-btn rm-btn-primary-ghost rm-btn-lg" href="#services">Learn More</a>
+<section class="rm-services-carousel">
+  <div class="rm-wrap">
+    <h2 class="rm-services-h">Our Services</h2>
+    <div class="rm-services-viewport">
+      <button class="rm-carousel-btn rm-carousel-prev" type="button" aria-label="Previous service">&#8249;</button>
+      <div class="rm-services-track" id="rm-services-track">
+        <article class="rm-service-card">
+          <h3>Attic Insulation Removal &amp; Installation</h3>
+          <p>Stay energy-efficient and comfortable year-round. We safely remove old insulation and install modern, energy-saving upgrades to improve your home's performance.</p>
+          <a class="rm-service-btn" href="#quote">Learn More</a>
+        </article>
+        <article class="rm-service-card">
+          <h3>Roof Installation &amp; Repair</h3>
+          <p>Apex Roofing specializes in asphalt shingles, tile, and other specialized materials that provide lasting protection and curb appeal for your home or building.</p>
+          <a class="rm-service-btn" href="#quote">Learn More</a>
+        </article>
+        <article class="rm-service-card">
+          <h3>Flat Roofing</h3>
+          <p>In addition to single-family homes, we're skilled in low-slope and flat roofing for multi-unit and commercial facilities &mdash; torch-down (Mod-Bit) and single-ply TPO, PVC, and EPDM systems.</p>
+          <a class="rm-service-btn" href="#quote">Learn More</a>
+        </article>
+        <article class="rm-service-card">
+          <h3>Gutters &amp; Downspouts</h3>
+          <p>Proper water flow protects your roof, siding, and foundation. We install and repair seamless gutters, downspouts, and gutter guards built for Front Range storms.</p>
+          <a class="rm-service-btn" href="#quote">Learn More</a>
+        </article>
+        <article class="rm-service-card">
+          <h3>Commercial Roofing</h3>
+          <p>Low-slope and high-slope commercial systems for property managers, HOAs, and industrial facilities across the Denver metro. Built to spec, on schedule, within budget.</p>
+          <a class="rm-service-btn" href="#quote">Learn More</a>
+        </article>
       </div>
+      <button class="rm-carousel-btn rm-carousel-next" type="button" aria-label="Next service">&#8250;</button>
+    </div>
+    <div class="rm-carousel-dots" id="rm-carousel-dots">
+      <button class="rm-dot active" type="button" aria-label="Slide 1"></button>
+      <button class="rm-dot" type="button" aria-label="Slide 2"></button>
+      <button class="rm-dot" type="button" aria-label="Slide 3"></button>
+      <button class="rm-dot" type="button" aria-label="Slide 4"></button>
+      <button class="rm-dot" type="button" aria-label="Slide 5"></button>
     </div>
   </div>
 </section>
@@ -250,6 +278,6 @@
 
 <a class="rm-mobile-call" href="tel:+13034812739">Call (303) 481-2739</a>
 
-<script src="script.js?v=4"></script>
+<script src="script.js?v=5"></script>
 </body>
 </html>
