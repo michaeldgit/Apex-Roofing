@@ -3031,7 +3031,7 @@ body.rm .rm-contact-section{padding-top:170px;padding-bottom:120px}
 body.rm .rm-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
 body.rm .rm-contact-info{display:flex;flex-direction:column}
 body.rm .rm-contact-intro{margin:0}
-body.rm .rm-contact-info h2{font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 28px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
+body.rm .rm-contact-info h2{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;margin:0 0 28px;letter-spacing:-.015em;line-height:1.15;color:var(--rm-brown)}
 
 body.rm .rm-contact-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
 body.rm .rm-contact-item{display:flex;gap:22px;align-items:center;padding:22px 4px;border-top:1px solid rgba(58,36,16,.16)}
