@@ -2995,7 +2995,7 @@ body.rm .rm-section-brown .rm-section-head p{color:rgba(255,255,255,.8)}
 body.rm .rm-two-col{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
 body.rm .rm-two-col.rm-reverse{direction:rtl}
 body.rm .rm-two-col.rm-reverse > *{direction:ltr}
-body.rm .rm-two-col-copy h2{font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700;letter-spacing:-.01em;line-height:1.2;margin:0 0 24px}
+body.rm .rm-two-col-copy h2{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.2vw,2.6rem);font-weight:800;letter-spacing:-.015em;line-height:1.15;margin:0 0 24px;color:var(--rm-brown)}
 body.rm .rm-two-col-copy p{color:var(--rm-text);font-size:1.05rem;line-height:1.8;margin:0 0 22px}
 body.rm .rm-two-col-copy p:last-of-type{margin-bottom:0}
 body.rm .rm-two-col-img{aspect-ratio:4/3;background:var(--rm-beige-dk);background-size:cover;background-position:center;border-radius:0;overflow:hidden}
@@ -3096,7 +3096,7 @@ body.rm .rm-service-tag{display:flex;align-items:center;gap:18px;color:var(--rm-
 body.rm .rm-service-tag-num{font-family:'Poppins',sans-serif;font-weight:800;font-size:3.4rem;line-height:.9;letter-spacing:-.03em;color:var(--rm-brown)}
 body.rm .rm-service-tag-rule{flex:0 0 auto;width:48px;height:2px;background:var(--rm-brown)}
 body.rm .rm-service-tag-label{font-size:.82rem;letter-spacing:.26em;text-transform:uppercase;font-weight:700;color:var(--rm-brown)}
-body.rm .rm-service-copy h2{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(2rem,3.4vw,2.8rem);color:var(--rm-brown);letter-spacing:-.02em;line-height:1.1;margin:0 0 22px}
+body.rm .rm-service-copy h2{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(1.9rem,3.2vw,2.6rem);color:var(--rm-brown);letter-spacing:-.015em;line-height:1.15;margin:0 0 22px}
 body.rm .rm-service-copy > p{color:var(--rm-brown);font-size:1.08rem;line-height:1.7;margin:0 0 30px}
 
 body.rm .rm-service-detail{background:transparent;border:0;border-radius:0;padding:0;margin:0 0 32px}
@@ -3136,7 +3136,7 @@ body.rm .rm-cat-divider p{color:var(--rm-brown);font-size:1.05rem;line-height:1.
 
 /* FAQ page */
 body.rm .rm-faq-hero{padding:170px 0 20px;text-align:center;background:var(--rm-cream)}
-body.rm .rm-faq-title{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(3rem,8.5vw,6.4rem);line-height:.95;letter-spacing:-.02em;margin:0 0 22px;text-transform:uppercase;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .28em}
+body.rm .rm-faq-title{font-family:'Poppins',sans-serif;font-weight:800;font-size:clamp(1.9rem,3.2vw,2.6rem);line-height:1.15;letter-spacing:-.015em;margin:0 0 22px;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .25em}
 body.rm .rm-faq-title-a{color:var(--rm-brown)}
 body.rm .rm-faq-title-b{color:var(--rm-brown)}
 body.rm .rm-faq-sub{color:var(--rm-brown);font-size:1.15rem;line-height:1.6;margin:0 auto;max-width:620px}
