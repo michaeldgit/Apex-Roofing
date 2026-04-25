@@ -649,7 +649,7 @@ body.rm .rm-mission-photo.reveal{transition-delay:180ms}
     box-shadow:var(--shadow-md);
   }
   .sticky-cta{display:flex}
-  body{padding-bottom:72px}
+  body:not(.rm){padding-bottom:72px}
   .hero{padding:50px 0 120px}
   .trust-strip{gap:22px}
   .trust-item .n{font-size:1.2rem}
