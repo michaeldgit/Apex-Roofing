@@ -2954,7 +2954,7 @@ body.rm .rm-footer-bar a:hover{color:var(--rm-brown-dk);text-decoration:underlin
   .rm-brand-name{font-size:1.1rem}
   .rm-header-cta{padding:11px 14px;font-size:.82rem;border-radius:12px}
   .rm-hero{aspect-ratio:auto;min-height:0;padding:0;align-items:stretch;flex-direction:column;background-color:var(--rm-cream)}
-  .rm-hero-img{position:relative;inset:auto;width:100%;height:auto;aspect-ratio:2048/1366;object-fit:cover;object-position:center 65%;order:1}
+  .rm-hero-img{position:relative;inset:auto;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:center top;order:1}
   .rm-hero-overlay{display:none}
   .rm-hero-in{padding:30px 20px 40px;width:100%;max-width:100%;order:2;box-sizing:border-box;display:flex;flex-direction:column;align-items:center}
   .rm-hero h1{font-size:1.9rem;margin:0 0 20px;line-height:1.15;color:var(--rm-brown);text-shadow:none;max-width:100%;box-sizing:border-box;text-align:center}
