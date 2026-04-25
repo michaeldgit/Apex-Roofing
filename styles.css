@@ -2965,8 +2965,8 @@ body.rm-nav-locked{overflow:hidden}
   .rm-brand-ico svg{width:36px;height:auto}
   .rm-brand-name{font-size:1.1rem}
   .rm-header-cta{display:none}
-  .rm-hero{aspect-ratio:auto;min-height:95vh;padding:200px 0 60px}
-  .rm-hero-img{object-position:80% center}
+  .rm-hero{aspect-ratio:auto;min-height:95vh;padding:150px 0 60px}
+  .rm-hero-img{object-position:75% center}
   body.rm .rm-hero h1{font-size:1.9rem;margin:0 0 24px;line-height:1.15}
   body.rm .rm-hero .rm-btn-lg{padding:14px 22px;font-size:.95rem;border-radius:14px;white-space:normal;text-align:center;max-width:90%}
   .rm-stats{padding:0 16px 40px;margin-top:-40px}
