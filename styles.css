@@ -3013,8 +3013,8 @@ body.rm .rm-feature h3{font-size:1.2rem;font-weight:700;margin:0;letter-spacing:
 body.rm .rm-feature p{color:var(--rm-muted);font-size:.98rem;line-height:1.65;margin:0}
 
 /* ===== Team photo (About) ===== */
-body.rm .rm-team-photo{margin:0 auto 70px;max-width:1080px}
-body.rm .rm-team-photo img{width:100%;height:auto;display:block}
+body.rm .rm-team-photo{margin:0 auto 70px;max-width:1080px;aspect-ratio:1196/665;overflow:hidden}
+body.rm .rm-team-photo img{width:100%;height:100%;object-fit:cover;object-position:center bottom;display:block}
 
 /* ===== Values list (About) ===== */
 body.rm .rm-values{display:grid;grid-template-columns:repeat(2,1fr);gap:60px 80px;max-width:1080px;margin:0 auto}
