@@ -13,6 +13,24 @@
     });
   }
 
+  // RM mobile menu
+  var rmBurger = document.querySelector('.rm-burger');
+  var rmHeader = document.querySelector('.rm-header');
+  if (rmBurger && rmHeader){
+    rmBurger.addEventListener('click', function(){
+      var open = rmHeader.classList.toggle('rm-nav-open');
+      rmBurger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.body.classList.toggle('rm-nav-locked', open);
+    });
+    rmHeader.querySelectorAll('.rm-mobile-menu a').forEach(function(a){
+      a.addEventListener('click', function(){
+        rmHeader.classList.remove('rm-nav-open');
+        rmBurger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('rm-nav-locked');
+      });
+    });
+  }
+
   // Header scroll shadow
   var header = document.querySelector('.site-header');
   function onScroll(){
