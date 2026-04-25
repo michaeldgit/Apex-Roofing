@@ -3012,6 +3012,10 @@ body.rm .rm-feature-ico svg{width:26px;height:26px;stroke:currentColor;fill:none
 body.rm .rm-feature h3{font-size:1.2rem;font-weight:700;margin:0;letter-spacing:-.01em}
 body.rm .rm-feature p{color:var(--rm-muted);font-size:.98rem;line-height:1.65;margin:0}
 
+/* ===== Team photo (About) ===== */
+body.rm .rm-team-photo{margin:0 auto 70px;max-width:1080px}
+body.rm .rm-team-photo img{width:100%;height:auto;display:block}
+
 /* ===== Values list (About) ===== */
 body.rm .rm-values{display:grid;grid-template-columns:repeat(2,1fr);gap:60px 80px;max-width:1080px;margin:0 auto}
 body.rm .rm-value{text-align:left}
