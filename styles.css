@@ -2953,9 +2953,11 @@ body.rm .rm-footer-bar a:hover{color:var(--rm-brown-dk);text-decoration:underlin
   .rm-brand-ico svg{width:36px;height:auto}
   .rm-brand-name{font-size:1.1rem}
   .rm-header-cta{padding:11px 14px;font-size:.82rem;border-radius:12px}
-  .rm-hero{min-height:480px;padding:70px 0}
-  .rm-hero h1{font-size:2rem;margin-bottom:28px}
-  body.rm .rm-hero .rm-btn-lg{padding:14px 22px;font-size:.95rem;border-radius:14px}
+  .rm-hero{aspect-ratio:4/5;min-height:0;padding:0;align-items:center}
+  .rm-hero-img{object-position:center 65%}
+  .rm-hero-in{padding:90px 0 32px;width:100%;max-width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100%}
+  .rm-hero h1{font-size:1.85rem;margin-bottom:24px;line-height:1.15;max-width:100%;padding:0 8px;box-sizing:border-box}
+  body.rm .rm-hero .rm-btn-lg{padding:14px 22px;font-size:.95rem;border-radius:14px;white-space:normal;text-align:center;max-width:90%}
   .rm-stats{padding:0 16px 40px;margin-top:-40px}
   .rm-stats-in{padding:40px 20px}
   .rm-story,.rm-mission,.rm-gr,.rm-reviews,.rm-quote{padding:64px 0}
