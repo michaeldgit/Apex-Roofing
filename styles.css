@@ -3013,11 +3013,13 @@ body.rm .rm-feature h3{font-size:1.2rem;font-weight:700;margin:0;letter-spacing:
 body.rm .rm-feature p{color:var(--rm-muted);font-size:.98rem;line-height:1.65;margin:0}
 
 /* ===== Values list (About) ===== */
-body.rm .rm-values{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
-body.rm .rm-value{padding:28px 22px;background:#fff;border:1px solid var(--rm-line);text-align:left}
-body.rm .rm-value-num{font-family:'Poppins',sans-serif;font-weight:800;color:var(--rm-yellow-dk);font-size:2rem;line-height:1;margin-bottom:14px}
-body.rm .rm-value h3{font-size:1.1rem;font-weight:700;margin:0 0 10px}
-body.rm .rm-value p{color:var(--rm-muted);font-size:.95rem;line-height:1.65;margin:0}
+body.rm .rm-values{display:grid;grid-template-columns:repeat(2,1fr);gap:60px 80px;max-width:1080px;margin:0 auto}
+body.rm .rm-value{text-align:left}
+body.rm .rm-value-head{display:flex;align-items:center;gap:18px;margin-bottom:14px}
+body.rm .rm-value-ico{width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:var(--rm-brown);flex-shrink:0}
+body.rm .rm-value-ico svg{width:100%;height:100%;fill:currentColor}
+body.rm .rm-value h3{font-size:1.7rem;font-weight:700;color:var(--rm-brown);margin:0;letter-spacing:-.01em}
+body.rm .rm-value p{color:var(--rm-brown);font-size:1rem;line-height:1.65;margin:0}
 
 /* ===== CTA band ===== */
 body.rm .rm-cta{background:var(--rm-cream);color:var(--rm-brown);padding:80px 0;text-align:center}
@@ -3048,6 +3050,7 @@ body.rm .rm-qform-title{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,
 
 @media (max-width:960px){
   body.rm .rm-feature-grid,body.rm .rm-feature-grid-4,body.rm .rm-values{grid-template-columns:repeat(2,1fr)}
+  body.rm .rm-values{gap:40px}
   body.rm .rm-two-col{grid-template-columns:1fr;gap:40px}
   body.rm .rm-two-col.rm-reverse{direction:ltr}
   body.rm .rm-contact-grid{grid-template-columns:1fr;gap:40px}
