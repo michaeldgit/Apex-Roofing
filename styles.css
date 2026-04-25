@@ -2944,6 +2944,7 @@ body.rm-nav-locked{overflow:hidden}
   .rm-header-in{justify-content:space-between}
   .rm-burger{display:inline-flex}
   .rm-header.rm-nav-open .rm-mobile-menu{display:flex}
+  .rm-header.rm-nav-open{padding-bottom:0;border-bottom-color:transparent}
   .rm-story-in{grid-template-columns:1fr;gap:50px}
   .rm-story-alt .rm-story-photo{order:2}
   .rm-story-alt .rm-story-copy{order:1}
