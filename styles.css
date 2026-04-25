@@ -2971,8 +2971,8 @@ body.rm .rm-footer-bar a:hover{color:var(--rm-brown-dk);text-decoration:underlin
   .rm-qform-row{grid-template-columns:1fr}
   .rm-footer-in{grid-template-columns:1fr;gap:32px;padding-top:50px;padding-bottom:40px}
   .rm-footer-bar{flex-direction:column;padding:14px 20px}
-  .rm-mobile-call{display:block}
-  body.rm{padding-bottom:80px;overflow-x:hidden}
+  .rm-mobile-call{display:none}
+  body.rm{overflow-x:hidden}
   html{overflow-x:hidden}
 }
 @media (max-width:420px){
