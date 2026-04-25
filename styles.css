@@ -2936,7 +2936,7 @@ body.rm .rm-footer-bar a:hover{color:var(--rm-brown-dk);text-decoration:underlin
 .rm-header.rm-nav-open .rm-burger span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
 .rm-mobile-menu{display:none;background:rgba(245,238,224,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid rgba(58,36,16,.1);padding:18px 24px 28px;flex-direction:column}
 .rm-mobile-menu a{font-family:'Poppins',sans-serif;font-weight:600;color:var(--rm-brown);font-size:1.1rem;padding:18px 4px;border-bottom:1px solid rgba(58,36,16,.12);text-decoration:none;letter-spacing:-.005em}
-.rm-mobile-menu a.rm-mobile-menu-cta{margin-top:22px;background:var(--rm-brown);color:#fff;border:1.5px solid #fff;outline:1px solid var(--rm-brown);border-radius:14px;padding:16px 20px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.18);font-weight:700;font-size:1rem}
+.rm-mobile-menu a.rm-mobile-menu-cta{margin-top:22px;background:var(--rm-brown);color:#fff;border:0;border-radius:14px;padding:16px 20px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.18);font-weight:700;font-size:1rem}
 body.rm-nav-locked{overflow:hidden}
 
 @media (max-width:1024px){
@@ -2970,7 +2970,7 @@ body.rm-nav-locked{overflow:hidden}
   .rm-hero-overlay{display:none}
   .rm-hero-in{padding:30px 20px 40px;width:100%;max-width:100%;order:2;box-sizing:border-box;display:flex;flex-direction:column;align-items:center}
   .rm-hero h1{font-size:1.9rem;margin:0 0 20px;line-height:1.15;color:var(--rm-brown);text-shadow:none;max-width:100%;box-sizing:border-box;text-align:center}
-  body.rm .rm-hero .rm-btn-lg{padding:14px 22px;font-size:.95rem;border-radius:14px;white-space:normal;text-align:center;max-width:90%;border:1.5px solid #fff;outline:1px solid var(--rm-brown);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+  body.rm .rm-hero .rm-btn-lg{padding:14px 22px;font-size:.95rem;border-radius:14px;white-space:normal;text-align:center;max-width:90%;border:1px solid #fff;box-shadow:0 10px 26px rgba(0,0,0,.25)}
   .rm-stats{padding:0 16px 40px;margin-top:-40px}
   .rm-stats-in{padding:40px 20px}
   .rm-story,.rm-mission,.rm-gr,.rm-reviews,.rm-quote{padding:64px 0}
